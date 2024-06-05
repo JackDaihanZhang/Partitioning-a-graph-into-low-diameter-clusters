@@ -11,11 +11,6 @@ A minimum 2-club partition             |  A minimum 3-club partition
 :-------------------------:|:-------------------------:
 ![](readme_images/karate_s2.png?raw=true "a minimum 2-club partition of the karate graph")   |  ![](readme_images/karate_s3.png?raw=true "a minimum 3-club partition of the karate graph")
 
-A minimum 2-club partition             |  A minimum 3-club partition
-:-------------------------:|:-------------------------:
- 
-![Figure 1](readme_images/karate_s2.png?raw=true "a minimum 2-club partition of the karate graph") | ![Figure 2](readme_images/karate_s3.png?raw=true "a minimum 3-club partition of the karate graph")
-
 
 ## Require
 To run the code, you will need installations of [Gurobi](https://www.gurobi.com/).
