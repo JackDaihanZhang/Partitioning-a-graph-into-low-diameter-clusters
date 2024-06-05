@@ -17,7 +17,7 @@ To run the code, you will need installations of [Gurobi](https://www.gurobi.com/
 You can run the code from command line, like this:
 
 ```
-C:\Linear-size-formulations-for-connected-planar-graph-partitioning-and-political-districting\src>python Main.py config.json 1>>log-file.txt 2>>error-file.txt
+C:\Partitioning-a-graph-into-low-diameter-clusters\src>python Main.py config.json 1>>log-file.txt 2>>error-file.txt
 ```
 
 ## config.json
