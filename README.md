@@ -65,12 +65,4 @@ Generally, each run should pick from the following options:
 * num_district
 * warm_start : {true, false}
   * If true, will use a warm start obtained from Hess or Williams model
-  
-## References
-In this repository, we employed parts of the following repositories. 
-
-```
-Validi, H., & Buchanan, A. (2022). Political districting to minimize cut edges (Version 0.0.1) [Computer software]. https://doi.org/10.5281/zenodo.6374373
-
-Najt, L., & Deford, D. (2019). Face finder [Computer software]. https://github.com/vrdi/NetworksWeek5/blob/master/PlanarEmbeddings/face_finder.py
-```
+ 
