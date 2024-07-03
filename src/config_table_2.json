@@ -1,0 +1,86 @@
+{
+    "run1": {
+        "Model": "LB+UB",
+        "s": 3,
+        "Instance": "karate",
+	"Binary search": false
+    },
+    "run2": {
+        "Model": "LB+UB",
+        "s": 3,
+        "Instance": "chesapeake",
+	"Binary search": false
+    },
+    "run3": {
+        "Model": "LB+UB",
+        "s": 3,
+        "Instance": "dolphins",
+	"Binary search": false
+    },
+    "run4": {
+        "Model": "LB+UB",
+        "s": 3,
+        "Instance": "lesmis",
+	"Binary search": false
+    },
+    "run5": {
+        "Model": "LB+UB",
+        "s": 3,
+        "Instance": "polbooks",
+	"Binary search": false
+    },
+    "run6": {
+        "Model": "LB+UB",
+        "s": 3,
+        "Instance": "adjnoun",
+	"Binary search": false
+    },
+    "run7": {
+        "Model": "LB+UB",
+        "s": 3,
+        "Instance": "football",
+	"Binary search": false
+    },
+    "run8": {
+        "Model": "LB+UB",
+        "s": 3,
+        "Instance": "jazz",
+	"Binary search": false
+    },
+    "run9": {
+        "Model": "LB+UB",
+        "s": 3,
+        "Instance": "celegansneural",
+	"Binary search": false
+    },
+    "run10": {
+        "Model": "LB+UB",
+        "s": 3,
+        "Instance": "celegans_metabolic",
+	"Binary search": false
+    },
+    "run11": {
+        "Model": "LB+UB",
+        "s": 3,
+        "Instance": "netscience",
+	"Binary search": false
+    },
+    "run12": {
+        "Model": "LB+UB",
+        "s": 3,
+        "Instance": "polblogs",
+	"Binary search": false
+    },
+    "run13": {
+        "Model": "LB+UB",
+        "s": 3,
+        "Instance": "email",
+	"Binary search": false
+    },
+    "run14": {
+        "Model": "LB+UB",
+        "s": 3,
+        "Instance": "data",
+	"Binary search": false
+    }
+}

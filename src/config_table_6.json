@@ -1,0 +1,38 @@
+{
+    "run1": {
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "dolphins",
+	"Binary search": true
+    },
+    "run2": {
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "polbooks",
+	"Binary search": true
+    },
+    "run3": {
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "football",
+	"Binary search": true
+    },
+    "run4": {
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "celegansneural",
+	"Binary search": true
+    },
+    "run5": {
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "email",
+	"Binary search": true
+    },
+    "run6": {
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "data",
+	"Binary search": true
+    }
+}
