@@ -123,10 +123,6 @@ for key in batch_configs.keys():
     for iteration in range(len(G_induced_subgraphs)):
         # Display the information of G
         G = nx.convert_node_labels_to_integers(G_induced_subgraphs[iteration])
-        print("Iteration: ", iteration)
-        print("Diameter?", nx.diameter(G))
-        print("# of nodes of G: ", len(G.nodes))
-        print("# of edges of G: ", len(G.edges))
 
         # Lower bound
         print("Starting the lower bound calculation")
@@ -161,7 +157,7 @@ for key in batch_configs.keys():
                 # Solve the s-club problem with the selected model
                 if base == "ext_label" and not binary_search:
                     opt_obj, obj_bound, status = s_club_ext_label.solve_s_club_ext_label(
-                        G, s,potential_roots, feasible_partitions, UB_iteration)
+                        G, s, potential_roots, feasible_partitions, UB_iteration)
                 elif base == "ext_label" and binary_search:
                     opt_obj, obj_bound, status = s_club_ext_label.solve_s_club_ext_label_with_divide_and_conquer(
                         G, s, potential_roots, UB_iteration)
@@ -176,12 +172,6 @@ for key in batch_configs.keys():
                 obj_Value += opt_obj
                 obj_Bound += max(obj_bound, LB_iteration)
 
-                # If time limit is reached, we would not have a valid upper bound unless we are on the last
-                # connected component
-                if status == 9 and iteration != len(G_induced_subgraphs ) - 1:
-                    UB = "N/A"
-                    obj_Bound = "N/A"
-                    break
 
 
     # Finish time counter

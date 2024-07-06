@@ -17,7 +17,7 @@ def find_max_indep_set(H):
     m.addConstrs(y[i] + y[j] <= 1 for (i, j) in H.edges)
 
     # Set parameters
-    m.Params.timeLimit = 180  # 60-second time limit
+    m.Params.timeLimit = 60
 
     # Optimize model
     m.optimize()
