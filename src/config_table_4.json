@@ -26,46 +26,70 @@
     "run5": {
         "Model": "ext_label",
         "s": 3,
-        "Instance": "email",
+        "Instance": "netscience",
 	"Binary search": false
     },
     "run6": {
         "Model": "ext_label",
         "s": 3,
-        "Instance": "data",
+        "Instance": "polblogs",
 	"Binary search": false
     },
     "run7": {
-        "Model": "Sasha",
+        "Model": "ext_label",
         "s": 3,
-        "Instance": "dolphins",
+        "Instance": "email",
 	"Binary search": false
     },
     "run8": {
-        "Model": "Sasha",
+        "Model": "ext_label",
         "s": 3,
-        "Instance": "polbooks",
+        "Instance": "data",
 	"Binary search": false
     },
     "run9": {
         "Model": "Sasha",
         "s": 3,
-        "Instance": "football",
+        "Instance": "dolphins",
 	"Binary search": false
     },
     "run10": {
         "Model": "Sasha",
         "s": 3,
-        "Instance": "celegansneural",
+        "Instance": "polbooks",
 	"Binary search": false
     },
     "run11": {
         "Model": "Sasha",
         "s": 3,
-        "Instance": "email",
+        "Instance": "football",
 	"Binary search": false
     },
     "run12": {
+        "Model": "Sasha",
+        "s": 3,
+        "Instance": "celegansneural",
+	"Binary search": false
+    },
+    "run13": {
+        "Model": "Sasha",
+        "s": 3,
+        "Instance": "netscience",
+	"Binary search": false
+    },
+    "run14": {
+        "Model": "Sasha",
+        "s": 3,
+        "Instance": "polblogs",
+	"Binary search": false
+    },
+    "run15": {
+        "Model": "Sasha",
+        "s": 3,
+        "Instance": "email",
+	"Binary search": false
+    },
+    "run16": {
         "Model": "Sasha",
         "s": 3,
         "Instance": "data",
