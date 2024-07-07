@@ -26,10 +26,22 @@
     "run5": {
         "Model": "ext_label",
         "s": 3,
-        "Instance": "email",
+        "Instance": "netscience",
 	"Binary search": true
     },
     "run6": {
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "polblogs",
+	"Binary search": true
+    },
+    "run7": {
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "email",
+	"Binary search": true
+    },
+    "run8": {
         "Model": "ext_label",
         "s": 3,
         "Instance": "data",
