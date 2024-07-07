@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\hvalidi\Downloads\Partitioning-a-graph-into-low-diameter-clusters-main\Partitioning-a-graph-into-low-diameter-clusters-main\src\main.py", line 169, in <module>
+    opt_obj, obj_bound, status = sasha.solve_s_club_with_sasha(G, s, potential_roots,
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hvalidi\Downloads\Partitioning-a-graph-into-low-diameter-clusters-main\Partitioning-a-graph-into-low-diameter-clusters-main\src\sasha.py", line 41, in solve_s_club_with_sasha
+    m.addConstrs(X[i, k] + X[j, k] <= 1 for k in range(max_k) if distance[i][j] >= s + 1)
+  File "src\\gurobipy\\model.pxi", line 3885, in gurobipy.Model.addConstrs
+  File "src\\gurobipy\\model.pxi", line 3794, in gurobipy.Model.addConstr
+  File "src\\gurobipy\\model.pxi", line 3485, in gurobipy.Model.__addConstr
+MemoryError
