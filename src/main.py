@@ -55,7 +55,7 @@ results_filename = "../results_for_" + config_filename_wo_extension + "/results_
                    "_" + today_string + ".csv"
 # Delete the last field
 fields = ["Instance", "Model", "s", "Binary Search", "|V|", "|E|", "LB", "LB Time (seconds)",
-          "UB", "UB Time (seconds)", "Total Time (seconds)", "Objective Value", "Objective Bound"]
+          "UB", "UB_mode", "UB Time (seconds)", "Total Time (seconds)", "Objective Value", "Objective Bound"]
 
 
 ################################################
@@ -194,6 +194,7 @@ for key in batch_configs.keys():
     result["LB"] = LB
     result["LB Time (seconds)"] = LB_Time
     result["UB"] = UB
+    result["UB_mode"] = UB_mode
     result["UB Time (seconds)"] = UB_Time
     result["Total Time (seconds)"] = total_time
     result["Objective Value"] = obj_Value
