@@ -18,6 +18,7 @@ def find_max_indep_set(H):
 
     # Set parameters
     m.Params.timeLimit = 60
+    m.Params.Presolve = 1
 
     # Optimize model
     m.optimize()

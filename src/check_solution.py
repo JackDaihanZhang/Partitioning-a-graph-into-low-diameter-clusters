@@ -15,6 +15,7 @@ def check_solution(G, s, partitions):
             valid_diameter = (nx.diameter(subgraph) <= s)
             print("Is the current s-club connected? ", is_connected)
             print("Does the current s-club have a valid diameter? ", valid_diameter)
+            print("The diameter of the subgraph: ", nx.diameter(subgraph))
             if not is_connected or not valid_diameter:
                 valid_solution = False
     return valid_solution

@@ -53,6 +53,7 @@ today = date.today()
 today_string = today.strftime("%Y_%b_%d")  # Year_Month_Day, like 2019_Sept_16
 results_filename = "../results_for_" + config_filename_wo_extension + "/results_" + config_filename_wo_extension +\
                    "_" + today_string + ".csv"
+# Delete the last field
 fields = ["Instance", "Model", "s", "Binary Search", "|V|", "|E|", "LB", "LB Time (seconds)",
           "UB", "UB Time (seconds)", "Total Time (seconds)", "Objective Value", "Objective Bound"]
 
@@ -84,6 +85,7 @@ for key in batch_configs.keys():
     base = config['Model']
     s = config['s']
     instance = config['Instance']
+    UB_mode = config['UB mode']
     binary_search = config['Binary search']
     if base == "LB+UB":
         models = False
@@ -120,6 +122,9 @@ for key in batch_configs.keys():
     UB = 0
     UB_Time = 0
 
+    # Delete this part
+    total_num_max_clique = 0
+
     for iteration in range(len(G_induced_subgraphs)):
         # Display the information of G
         G = nx.convert_node_labels_to_integers(G_induced_subgraphs[iteration])
@@ -138,9 +143,9 @@ for key in batch_configs.keys():
         print("Starting the upper bound calculation through heuristic")
         start_heur = time.time()
         if s % 2 == 0:
-            feasible_partitions = heuristic.calculate_UB_even(G, s)
+            feasible_partitions = heuristic.calculate_UB_even(G, s, UB_mode)
         else:
-            feasible_partitions = heuristic.calculate_UB_odd(G, s)
+            feasible_partitions = heuristic.calculate_UB_odd(G, s, UB_mode)
         finish_heur = time.time()
         UB_iteration = len(feasible_partitions)
         UB_Time += finish_heur - start_heur

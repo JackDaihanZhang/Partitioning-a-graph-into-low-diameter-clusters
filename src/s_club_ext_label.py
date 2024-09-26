@@ -198,7 +198,7 @@ def solve_s_club_ext_label_with_divide_and_conquer(G, s, potential_roots, max_k)
         sys.exit()
 
 
-# Solved the extended labeling formulation for a given objective valud (solve for feasibility)
+# Solved the extended labeling formulation for a given objective value (solve for feasibility)
 def solve_restricted_s_club_label(m, k):
     # Retrieve the parameters
     G = m._graph
