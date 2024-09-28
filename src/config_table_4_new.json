@@ -1,0 +1,86 @@
+{
+    "run1": {
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "dolphins",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run2": {
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "polbooks",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run3": {
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "football",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run4": {
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "celegansneural",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run5": {
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "email",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run6": {
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "data",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run7": {
+        "Model": "Sasha",
+        "s": 2,
+        "Instance": "dolphins",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run8": {
+        "Model": "Sasha",
+        "s": 2,
+        "Instance": "polbooks",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run9": {
+        "Model": "Sasha",
+        "s": 2,
+        "Instance": "football",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run10": {
+        "Model": "Sasha",
+        "s": 2,
+        "Instance": "celegansneural",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run11": {
+        "Model": "Sasha",
+        "s": 2,
+        "Instance": "email",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run12": {
+        "Model": "Sasha",
+        "s": 2,
+        "Instance": "data",
+	"Binary search": false,
+	"UB mode": "IP"
+    }
+}

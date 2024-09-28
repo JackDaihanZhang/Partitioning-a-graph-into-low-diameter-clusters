@@ -1,0 +1,44 @@
+{
+    "run1": {
+        "Model": "ext_label",
+        "s": 5,
+        "Instance": "polblogs",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run2": {
+        "Model": "ext_label",
+        "s": 5,
+        "Instance": "email",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run3": {
+        "Model": "ext_label",
+        "s": 5,
+        "Instance": "data",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run4": {
+        "Model": "Sasha",
+        "s": 5,
+        "Instance": "polblogs",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run5": {
+        "Model": "Sasha",
+        "s": 5,
+        "Instance": "email",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run6": {
+        "Model": "Sasha",
+        "s": 5,
+        "Instance": "data",
+	"Binary search": false,
+	"UB mode": "IP"
+    }
+}

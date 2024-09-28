@@ -1,0 +1,114 @@
+{
+    "run1": {
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "dolphins",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run2": {
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "polbooks",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run3": {
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "football",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run4": {
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "celegansneural",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run5": {
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "netscience",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run6": {
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "polblogs",
+	"Binary search": false,
+	"UB mode": "GRE"
+    },
+    "run7": {
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "email",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run8": {
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "data",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run9": {
+        "Model": "Sasha",
+        "s": 3,
+        "Instance": "dolphins",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run10": {
+        "Model": "Sasha",
+        "s": 3,
+        "Instance": "polbooks",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run11": {
+        "Model": "Sasha",
+        "s": 3,
+        "Instance": "football",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run12": {
+        "Model": "Sasha",
+        "s": 3,
+        "Instance": "celegansneural",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run13": {
+        "Model": "Sasha",
+        "s": 3,
+        "Instance": "netscience",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run14": {
+        "Model": "Sasha",
+        "s": 3,
+        "Instance": "polblogs",
+	"Binary search": false,
+	"UB mode": "GRE"
+    },
+    "run15": {
+        "Model": "Sasha",
+        "s": 3,
+        "Instance": "email",
+	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run16": {
+        "Model": "Sasha",
+        "s": 3,
+        "Instance": "data",
+	"Binary search": false,
+	"UB mode": "IP"
+    }
+}
