@@ -139,6 +139,8 @@ def calculate_UB_odd(G, s, UB_mode):
 
         # Set the parameters
         m.Params.timeLimit = 60  # 60-second time limit
+        m.Params.method = 3  # Concurrent method
+        m.Params.Presolve = 1
 
         # Optimize the model
         m.optimize()
