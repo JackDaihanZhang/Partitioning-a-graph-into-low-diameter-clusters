@@ -39,7 +39,7 @@
         "s": 3,
         "Instance": "polblogs",
 	"Binary search": false,
-	"UB mode": "GRE"
+	"UB mode": "IP"
     },
     "run7": {
         "Model": "ext_label",
@@ -95,7 +95,7 @@
         "s": 3,
         "Instance": "polblogs",
 	"Binary search": false,
-	"UB mode": "GRE"
+	"UB mode": "IP"
     },
     "run15": {
         "Model": "Sasha",
