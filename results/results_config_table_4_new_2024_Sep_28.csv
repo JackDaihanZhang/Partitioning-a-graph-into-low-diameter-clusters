@@ -1,0 +1,12 @@
+Instance,Model,s,Binary Search,|V|,|E|,LB,LB Time (seconds),UB_mode,UB,UB Time (seconds),Total Time (seconds),Objective Value,Objective Bound
+dolphins,ext_label,2,False,62,159,13,0.02,IP,14,0.00,0.11,13.0,13.0
+polbooks,ext_label,2,False,105,441,12,0.02,IP,13,0.02,0.62,12.0,12.0
+football,ext_label,2,False,115,613,7,0.12,IP,12,0.17,610.72,10.0,9.999594155103903
+celegansneural,ext_label,2,False,297,2148,14,0.39,IP,16,0.05,52.84,15.0,15.0
+email,ext_label,2,False,1133,5451,209,1.48,IP,210,0.09,56.30,209.0,209.0
+data,ext_label,2,False,2851,15093,250,60.72,IP,286,60.64,3791.44,286.0,250.49999999999997
+dolphins,Sasha,2,False,62,159,13,0.02,IP,14,0.00,1.34,13.0,13.0
+polbooks,Sasha,2,False,105,441,12,0.02,IP,13,0.02,4.19,12.0,12.0
+football,Sasha,2,False,115,613,7,0.17,IP,12,0.31,3605.25,12,7
+celegansneural,Sasha,2,False,297,2148,14,0.39,IP,16,0.06,3633.19,16,14
+email,Sasha,2,False,1133,5451,209,1.48,IP,210,0.09,1624.29,210,209
