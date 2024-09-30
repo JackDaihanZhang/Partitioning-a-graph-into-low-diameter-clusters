@@ -1,394 +1,394 @@
 {
     "run1": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "karate",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run2": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "chesapeake",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run3": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "dolphins",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run4": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "lesmis",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run5": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "polbooks",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run6": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "adjnoun",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run7": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "football",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run8": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "jazz",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run9": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "celegansneural",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run10": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "celegans_metabolic",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run11": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "netscience",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run12": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "polblogs",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run13": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "email",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run14": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "data",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run15": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "karate",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run16": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "chesapeake",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run17": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "dolphins",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run18": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "lesmis",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run19": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "polbooks",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run20": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "adjnoun",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run21": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "football",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run22": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "jazz",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run23": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "celegansneural",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run24": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "celegans_metabolic",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run25": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "netscience",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run26": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "polblogs",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run27": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "email",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run28": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 3,
         "Instance": "data",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run29": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "karate",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run30": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "chesapeake",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run31": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "dolphins",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run32": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "lesmis",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run33": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "polbooks",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run34": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "adjnoun",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run35": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "football",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run36": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "jazz",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run37": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "celegansneural",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run38": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "celegans_metabolic",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run39": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "netscience",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run40": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "polblogs",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run41": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "email",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run42": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "data",
-	"Binary search": false,
 	"UB mode": "GRE"
     },
     "run43": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "karate",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run44": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "chesapeake",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run45": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "dolphins",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run46": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "lesmis",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run47": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "polbooks",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run48": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "adjnoun",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run49": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "football",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run50": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "jazz",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run51": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "celegansneural",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run52": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "celegans_metabolic",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run53": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "netscience",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run54": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "polblogs",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run55": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "email",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run56": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 5,
         "Instance": "data",
-	"Binary search": false,
 	"UB mode": "IP"
     }
 }

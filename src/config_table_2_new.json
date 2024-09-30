@@ -1,394 +1,394 @@
 {
     "run1": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "karate",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run2": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "chesapeake",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run3": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "dolphins",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run4": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "lesmis",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run5": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "polbooks",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run6": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "adjnoun",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run7": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "football",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run8": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "jazz",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run9": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "celegansneural",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run10": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "celegans_metabolic",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run11": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "netscience",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run12": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "polblogs",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run13": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "email",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run14": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "data",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run15": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "karate",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run16": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "chesapeake",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run17": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "dolphins",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run18": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "lesmis",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run19": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "polbooks",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run20": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "adjnoun",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run21": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "football",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run22": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "jazz",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run23": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "celegansneural",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run24": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "celegans_metabolic",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run25": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "netscience",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run26": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "polblogs",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run27": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "email",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run28": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 2,
         "Instance": "data",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run29": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "karate",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run30": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "chesapeake",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run31": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "dolphins",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run32": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "lesmis",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run33": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "polbooks",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run34": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "adjnoun",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run35": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "football",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run36": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "jazz",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run37": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "celegansneural",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run38": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "celegans_metabolic",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run39": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "netscience",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run40": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "polblogs",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run41": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "email",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run42": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "data",
-	"Binary search": false,
 	"UB mode": "APX"
     },
     "run43": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "karate",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run44": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "chesapeake",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run45": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "dolphins",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run46": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "lesmis",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run47": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "polbooks",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run48": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "adjnoun",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run49": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "football",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run50": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "jazz",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run51": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "celegansneural",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run52": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "celegans_metabolic",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run53": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "netscience",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run54": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "polblogs",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run55": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "email",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run56": {
+	"Problem": "Partitioning",
         "Model": "LB+UB",
         "s": 4,
         "Instance": "data",
-	"Binary search": false,
 	"UB mode": "IP"
     }
 }

@@ -1,44 +1,86 @@
 {
     "run1": {
+	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 5,
         "Instance": "polblogs",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run2": {
+	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 5,
         "Instance": "email",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run3": {
+	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 5,
         "Instance": "data",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run4": {
+	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 5,
         "Instance": "polblogs",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run5": {
+	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 5,
         "Instance": "email",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run6": {
+	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 5,
         "Instance": "data",
-	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run7": {
+	"Problem": "Covering",
+        "Model": "ext_label",
+        "s": 5,
+        "Instance": "polblogs",
+	"UB mode": "IP"
+    },
+    "run8": {
+	"Problem": "Covering",
+        "Model": "ext_label",
+        "s": 5,
+        "Instance": "email",
+	"UB mode": "IP"
+    },
+    "run9": {
+	"Problem": "Covering",
+        "Model": "ext_label",
+        "s": 5,
+        "Instance": "data",
+	"UB mode": "IP"
+    },
+    "run10": {
+	"Problem": "Covering",
+        "Model": "Sasha",
+        "s": 5,
+        "Instance": "polblogs",
+	"UB mode": "IP"
+    },
+    "run11": {
+	"Problem": "Covering",
+        "Model": "Sasha",
+        "s": 5,
+        "Instance": "email",
+	"UB mode": "IP"
+    },
+    "run12": {
+	"Problem": "Covering",
+        "Model": "Sasha",
+        "s": 5,
+        "Instance": "data",
 	"UB mode": "IP"
     }
 }

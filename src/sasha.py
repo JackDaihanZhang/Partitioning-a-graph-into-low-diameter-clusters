@@ -5,7 +5,7 @@ import sys
 from check_solution import check_solution
 
 
-def solve_s_club_with_sasha(G, s, potential_roots, feasible_partitions, max_k):
+def solve_s_club_with_sasha(G, s, potential_roots, feasible_partitions, max_k, problem):
     # Construct the s-power graph
     H = nx.power(G, s)
 
@@ -29,8 +29,11 @@ def solve_s_club_with_sasha(G, s, potential_roots, feasible_partitions, max_k):
         m.setObjective(Z, GRB.MINIMIZE)
 
         # Add the assignment constraints - (2.b and 2.c)
-        m.addConstrs(gp.quicksum(X[i, k] for k in range(max_k)) == 1 for i in G.nodes)
         m.addConstrs(Z >= (k + 1) * X[i, k] for i in G.nodes for k in range(max_k))
+        if problem == "Partitioning":
+            m.addConstrs(gp.quicksum(X[i, k] for k in range(max_k)) == 1 for i in G.nodes)
+        else:
+            m.addConstrs(gp.quicksum(X[i, k] for k in range(max_k)) >= 1 for i in G.nodes)
 
         for i in G.nodes:
             for j in G.nodes:
@@ -63,15 +66,17 @@ def solve_s_club_with_sasha(G, s, potential_roots, feasible_partitions, max_k):
                     for l in range(s + 1):
                         U[i, j, l].ub = 0
 
-        # Fix the potential roots as independent s-clubs
-        for k in range(len(potential_roots)):
-            X[potential_roots[k], k].lb = 1
+        # The fixing procedure is only valid for the partitioning problem
+        if problem == "Partitioning":
+            # Fix the potential roots as independent s-clubs
+            for k in range(len(potential_roots)):
+                X[potential_roots[k], k].lb = 1
 
-        # Fix the assignment of the vertices far away from the potential roots to zero (F_1)
-        for k in range(len(potential_roots)):
-            for vertex in G.nodes:
-                if vertex not in H.neighbors(potential_roots[k]) and vertex != potential_roots[k]:
-                    X[vertex, k].ub = 0
+            # Fix the assignment of the vertices far away from the potential roots to zero (F_1)
+            for k in range(len(potential_roots)):
+                for vertex in G.nodes:
+                    if vertex not in H.neighbors(potential_roots[k]) and vertex != potential_roots[k]:
+                        X[vertex, k].ub = 0
 
         # Warm-start MIP with clusters (obtained by running heuristic.py)
         # Start the warm-start with nodes belong to partitions containing potential root

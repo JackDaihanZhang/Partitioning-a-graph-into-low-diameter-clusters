@@ -1,86 +1,170 @@
 {
     "run1": {
+	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 2,
         "Instance": "dolphins",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run2": {
+	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 2,
         "Instance": "polbooks",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run3": {
+	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 2,
         "Instance": "football",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run4": {
+	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 2,
         "Instance": "celegansneural",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run5": {
+	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 2,
         "Instance": "email",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run6": {
+	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 2,
         "Instance": "data",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run7": {
+	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 2,
         "Instance": "dolphins",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run8": {
+	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 2,
         "Instance": "polbooks",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run9": {
+	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 2,
         "Instance": "football",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run10": {
+	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 2,
         "Instance": "celegansneural",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run11": {
+	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 2,
         "Instance": "email",
-	"Binary search": false,
 	"UB mode": "IP"
     },
     "run12": {
+	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 2,
         "Instance": "data",
-	"Binary search": false,
+	"UB mode": "IP"
+    },
+    "run13": {
+	"Problem": "Covering",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "dolphins",
+	"UB mode": "IP"
+    },
+    "run14": {
+	"Problem": "Covering",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "polbooks",
+	"UB mode": "IP"
+    },
+    "run15": {
+	"Problem": "Covering",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "football",
+	"UB mode": "IP"
+    },
+    "run16": {
+	"Problem": "Covering",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "celegansneural",
+	"UB mode": "IP"
+    },
+    "run17": {
+	"Problem": "Covering",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "email",
+	"UB mode": "IP"
+    },
+    "run18": {
+	"Problem": "Covering",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "data",
+	"UB mode": "IP"
+    },
+    "run19": {
+	"Problem": "Covering",
+        "Model": "Sasha",
+        "s": 2,
+        "Instance": "dolphins",
+	"UB mode": "IP"
+    },
+    "run20": {
+	"Problem": "Covering",
+        "Model": "Sasha",
+        "s": 2,
+        "Instance": "polbooks",
+	"UB mode": "IP"
+    },
+    "run21": {
+	"Problem": "Covering",
+        "Model": "Sasha",
+        "s": 2,
+        "Instance": "football",
+	"UB mode": "IP"
+    },
+    "run22": {
+	"Problem": "Covering",
+        "Model": "Sasha",
+        "s": 2,
+        "Instance": "celegansneural",
+	"UB mode": "IP"
+    },
+    "run23": {
+	"Problem": "Covering",
+        "Model": "Sasha",
+        "s": 2,
+        "Instance": "email",
+	"UB mode": "IP"
+    },
+    "run24": {
+	"Problem": "Covering",
+        "Model": "Sasha",
+        "s": 2,
+        "Instance": "data",
 	"UB mode": "IP"
     }
 }

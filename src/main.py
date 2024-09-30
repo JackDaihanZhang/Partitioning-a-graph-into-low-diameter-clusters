@@ -54,7 +54,7 @@ today_string = today.strftime("%Y_%b_%d")  # Year_Month_Day, like 2019_Sept_16
 results_filename = "../results_for_" + config_filename_wo_extension + "/results_" + config_filename_wo_extension +\
                    "_" + today_string + ".csv"
 # Delete the last field
-fields = ["Instance", "Model", "s", "Binary Search", "|V|", "|E|", "LB", "LB Time (seconds)",
+fields = ["Instance", "Problem", "s", "Model", "|V|", "|E|", "LB", "LB Time (seconds)",
           "UB_mode", "UB", "UB Time (seconds)", "Total Time (seconds)", "Objective Value", "Objective Bound"]
 
 
@@ -82,20 +82,21 @@ with open(results_filename, 'w', newline='') as csvfile:
 for key in batch_configs.keys():
     # Read in the instance configuration
     config = batch_configs[key]
-    base = config['Model']
+    problem = config['Problem']
+    print("Problem:", problem)
     s = config['s']
+    base = config['Model']
     instance = config['Instance']
     UB_mode = config['UB mode']
-    binary_search = config['Binary search']
+    if problem != "Partitioning" and problem != "Covering":
+        print("Invalid problem.")
+        sys.exit()
     if base == "LB+UB":
         models = False
     else:
         models = True
     if s < 2:
         print("Invalid s.")
-        sys.exit()
-    if binary_search and base != "ext_label":
-        print("Do not support binary search with the specified model base")
         sys.exit()
     print("Solving " + instance + " under " + base + " model:")
 
@@ -121,9 +122,6 @@ for key in batch_configs.keys():
     LB_Time = 0
     UB = 0
     UB_Time = 0
-
-    # Delete this part
-    total_num_max_clique = 0
 
     for iteration in range(len(G_induced_subgraphs)):
         # Display the information of G
@@ -160,15 +158,12 @@ for key in batch_configs.keys():
                 obj_Bound += LB_iteration
             else:
                 # Solve the s-club problem with the selected model
-                if base == "ext_label" and not binary_search:
+                if base == "ext_label":
                     opt_obj, obj_bound, status = s_club_ext_label.solve_s_club_ext_label(
-                        G, s, potential_roots, feasible_partitions, UB_iteration)
-                elif base == "ext_label" and binary_search:
-                    opt_obj, obj_bound, status = s_club_ext_label.solve_s_club_ext_label_with_divide_and_conquer(
-                        G, s, potential_roots, UB_iteration)
+                        G, s, potential_roots, feasible_partitions, UB_iteration, problem)
                 elif base == "Sasha":
                     opt_obj, obj_bound, status = sasha.solve_s_club_with_sasha(G, s, potential_roots,
-                                                                               feasible_partitions, UB_iteration)
+                                                                               feasible_partitions, UB_iteration, problem)
                 else:
                     print("Please enter a correct base model")
                     sys.exit()
@@ -188,11 +183,14 @@ for key in batch_configs.keys():
     result["Instance"] = instance
     result["Model"] = base
     result["s"] = s
-    result["Binary Search"] = binary_search
     result["|V|"] = len(G_original.nodes)
     result["|E|"] = len(G_original.edges)
-    result["LB"] = LB
-    result["LB Time (seconds)"] = '{0:.2f}'.format(LB_Time)
+    if problem == "Partitioning":
+        result["LB"] = LB
+        result["LB Time (seconds)"] = '{0:.2f}'.format(LB_Time)
+    else:
+        result["LB"] = "N/A"
+        result["LB Time (seconds)"] = "N/A"
     result["UB_mode"] = UB_mode
     result["UB"] = UB
     result["UB Time (seconds)"] = '{0:.2f}'.format(UB_Time)
