@@ -8,7 +8,7 @@ import copy
 
 # The code in this file corresponds to the upper-bound calculation in section 3.2
 # When s is even (section 3.2.1)
-def calculate_UB_even(G, s, UB_mode):
+def calculate_UB_even(G, s, UB_mode, problem):
     # Creating the s/2 power graph
     r = int(s / 2)
     H = nx.power(G, r)
@@ -93,7 +93,7 @@ def calculate_UB_even(G, s, UB_mode):
     partitions = list(nx.connected_components(T_minus_r_undirected))
     partitions = [list(partition) for partition in partitions]
     # Check the solution
-    valid_solution = check_solution(G, s, partitions)
+    valid_solution = check_solution(G, s, partitions, problem)
     if valid_solution:
         return partitions
     else:
@@ -102,7 +102,7 @@ def calculate_UB_even(G, s, UB_mode):
 
 
 # When s is odd (section 3.2.2)
-def calculate_UB_odd(G, s, UB_mode):
+def calculate_UB_odd(G, s, UB_mode, problem):
     # Find the diameter and take the power graph
     d = (s - 1) // 2
     H = nx.power(G, d)
@@ -227,7 +227,7 @@ def calculate_UB_odd(G, s, UB_mode):
     partitions =[[v for v in partition if v not in V_Q] for partition in partitions]
 
     # Check the solution
-    valid_solution = check_solution(G, s, partitions)
+    valid_solution = check_solution(G, s, partitions, problem)
     if valid_solution:
         return partitions
     else:

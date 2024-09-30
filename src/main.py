@@ -141,9 +141,9 @@ for key in batch_configs.keys():
         print("Starting the upper bound calculation through heuristic")
         start_heur = time.time()
         if s % 2 == 0:
-            feasible_partitions = heuristic.calculate_UB_even(G, s, UB_mode)
+            feasible_partitions = heuristic.calculate_UB_even(G, s, UB_mode, problem)
         else:
-            feasible_partitions = heuristic.calculate_UB_odd(G, s, UB_mode)
+            feasible_partitions = heuristic.calculate_UB_odd(G, s, UB_mode, problem)
         finish_heur = time.time()
         UB_iteration = len(feasible_partitions)
         UB_Time += finish_heur - start_heur
