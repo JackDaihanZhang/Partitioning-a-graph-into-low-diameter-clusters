@@ -66,17 +66,15 @@ def solve_s_club_with_sasha(G, s, potential_roots, feasible_partitions, max_k, p
                     for l in range(s + 1):
                         U[i, j, l].ub = 0
 
-        # The fixing procedure is only valid for the partitioning problem
-        if problem == "Partitioning":
-            # Fix the potential roots as independent s-clubs
-            for k in range(len(potential_roots)):
-                X[potential_roots[k], k].lb = 1
+        # Fix the potential roots as independent s-clubs
+        for k in range(len(potential_roots)):
+            X[potential_roots[k], k].lb = 1
 
-            # Fix the assignment of the vertices far away from the potential roots to zero (F_1)
-            for k in range(len(potential_roots)):
-                for vertex in G.nodes:
-                    if vertex not in H.neighbors(potential_roots[k]) and vertex != potential_roots[k]:
-                        X[vertex, k].ub = 0
+        # Fix the assignment of the vertices far away from the potential roots to zero (F_1)
+        for k in range(len(potential_roots)):
+            for vertex in G.nodes:
+                if vertex not in H.neighbors(potential_roots[k]) and vertex != potential_roots[k]:
+                    X[vertex, k].ub = 0
 
         # Warm-start MIP with clusters (obtained by running heuristic.py)
         # Start the warm-start with nodes belong to partitions containing potential root

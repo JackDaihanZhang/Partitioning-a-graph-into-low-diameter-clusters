@@ -185,12 +185,8 @@ for key in batch_configs.keys():
     result["s"] = s
     result["|V|"] = len(G_original.nodes)
     result["|E|"] = len(G_original.edges)
-    if problem == "Partitioning":
-        result["LB"] = LB
-        result["LB Time (seconds)"] = '{0:.2f}'.format(LB_Time)
-    else:
-        result["LB"] = "N/A"
-        result["LB Time (seconds)"] = "N/A"
+    result["LB"] = LB
+    result["LB Time (seconds)"] = '{0:.2f}'.format(LB_Time)
     result["UB_mode"] = UB_mode
     result["UB"] = UB
     result["UB Time (seconds)"] = '{0:.2f}'.format(UB_Time)
