@@ -47,20 +47,18 @@ def solve_s_club_ext_label(G, s, potential_roots, clusters, max_k, problem):
     ###########################################################################################
     # Fixing and ordering procedures
     ###########################################################################################
-    # This part is only valid when we are solving for the partitioning problem
-    if problem == "Partitioning":
-        # One-fixing
-        for j in range(len(potential_roots)):
-            m._Y[j].lb = 1
-            m._X[potential_roots[j], j].lb = 1
-        for j in range(len(potential_roots)):
-            m._Y[j].lb = 1
+    # One-fixing
+    for j in range(len(potential_roots)):
+        m._Y[j].lb = 1
+        m._X[potential_roots[j], j].lb = 1
+    for j in range(len(potential_roots)):
+        m._Y[j].lb = 1
 
-        # Zero-fixing
-        for j in range(len(potential_roots)):
-            for vertex in G.nodes:
-                if vertex in H_c.neighbors(potential_roots[j]):
-                    m._X[vertex, j].ub = 0
+    # Zero-fixing
+    for j in range(len(potential_roots)):
+        for vertex in G.nodes:
+            if vertex in H_c.neighbors(potential_roots[j]):
+                m._X[vertex, j].ub = 0
 
     ###########################################################################################
     # Warm start MIP with variable clusters calculated by using heuristic.py
