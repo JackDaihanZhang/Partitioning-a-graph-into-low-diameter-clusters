@@ -108,16 +108,16 @@ def solve_s_club_with_sasha(G, s, potential_roots, feasible_partitions, max_k, p
 
     # Construct the final partition if there is at least one feasible solution found
     if m.Status in [GRB.OPTIMAL, GRB.SUBOPTIMAL]:
-        final_partitions = []
+        final_clusters = []
         for k in range(round(Z.x)):
-            partition = []
+            cluster = []
             for i in G.nodes:
                 if X[i, k].x >= 0.9:
                     partition.append(i)
-            final_partitions.append(partition)
+            final_clusters.append(partition)
 
         # Check the solution
-        valid_solution = check_solution(G, s, final_partitions)
+        valid_solution = check_solution(G, s, final_clusters, problem)
         if valid_solution:
             return m.objVal, m.ObjBound, m.Status
         else:

@@ -95,8 +95,8 @@ def solve_s_club_ext_label(G, s, potential_roots, clusters, max_k, problem):
 
     if m.solCount > 0:
         # Check the solution
-        partitions = [[vertex for vertex in G.nodes if m._X[vertex, j].x > 0.5] for j in range(max_k) if m._Y[j].x > 0.5]
-        valid_solution = check_solution(G, s, partitions)
+        clusters = [[vertex for vertex in G.nodes if m._X[vertex, j].x > 0.5] for j in range(max_k) if m._Y[j].x > 0.5]
+        valid_solution = check_solution(G, s, clusters, problem)
         if valid_solution:
             return m.objVal, m.ObjBound, m.Status
         else:
