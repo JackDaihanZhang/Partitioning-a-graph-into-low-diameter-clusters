@@ -113,8 +113,8 @@ def solve_s_club_with_sasha(G, s, potential_roots, feasible_partitions, max_k, p
             cluster = []
             for i in G.nodes:
                 if X[i, k].x >= 0.9:
-                    partition.append(i)
-            final_clusters.append(partition)
+                    cluster.append(i)
+            final_clusters.append(cluster)
 
         # Check the solution
         valid_solution = check_solution(G, s, final_clusters, problem)

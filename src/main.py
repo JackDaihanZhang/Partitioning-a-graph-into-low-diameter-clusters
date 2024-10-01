@@ -181,6 +181,7 @@ for key in batch_configs.keys():
     # Put final results at .csv file
     result = {}
     result["Instance"] = instance
+    result["Problem"] = problem
     result["Model"] = base
     result["s"] = s
     result["|V|"] = len(G_original.nodes)
