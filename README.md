@@ -127,6 +127,4 @@ Generally, each run should pick from the following options:
 * "Instance": {"karate", "chesapeake", "dolphins", "lesmis", "polbooks","adjnoun",
     "football", "jazz", "celegansneural", "celegans_metabolic",
     "netscience", "polblogs", "email", "data"}
-* "Binary search" : {true, false}
-  * If true, will run a binary search procedure using the interval defined by a LB and an UB corresponding to the instance and the given s
  
