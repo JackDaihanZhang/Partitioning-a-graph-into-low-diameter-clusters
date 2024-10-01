@@ -121,7 +121,8 @@ The config.json file might look like this:
 
 ## Config options
 Generally, each run should pick from the following options:
-* "Model": {"LB+UB", "ext_label", "Sasha"}
+* "Problem": {"LB+UB", "Partitioning", "Covering"}
+* "Model": {"IP", "APX", "GRE", "ext_label", "Sasha"}
 * "s" : any integer greater than or equal to 2
 * "Instance": {"karate", "chesapeake", "dolphins", "lesmis", "polbooks","adjnoun",
     "football", "jazz", "celegansneural", "celegans_metabolic",
