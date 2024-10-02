@@ -1,394 +1,338 @@
 {
     "run1": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 3,
-        "Instance": "karate",
-	"UB mode": "GRE"
+        "Instance": "karate"
     },
     "run2": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 3,
-        "Instance": "chesapeake",
-	"UB mode": "GRE"
+        "Instance": "chesapeake"
     },
     "run3": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 3,
-        "Instance": "dolphins",
-	"UB mode": "GRE"
+        "Instance": "dolphins"
     },
     "run4": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 3,
-        "Instance": "lesmis",
-	"UB mode": "GRE"
+        "Instance": "lesmis"
     },
     "run5": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 3,
-        "Instance": "polbooks",
-	"UB mode": "GRE"
+        "Instance": "polbooks"
     },
     "run6": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 3,
-        "Instance": "adjnoun",
-	"UB mode": "GRE"
+        "Instance": "adjnoun"
     },
     "run7": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 3,
-        "Instance": "football",
-	"UB mode": "GRE"
+        "Instance": "football"
     },
     "run8": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 3,
-        "Instance": "jazz",
-	"UB mode": "GRE"
+        "Instance": "jazz"
     },
     "run9": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 3,
-        "Instance": "celegansneural",
-	"UB mode": "GRE"
+        "Instance": "celegansneural"
     },
     "run10": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 3,
-        "Instance": "celegans_metabolic",
-	"UB mode": "GRE"
+        "Instance": "celegans_metabolic"
     },
     "run11": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 3,
-        "Instance": "netscience",
-	"UB mode": "GRE"
+        "Instance": "netscience"
     },
     "run12": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 3,
-        "Instance": "polblogs",
-	"UB mode": "GRE"
+        "Instance": "polblogs"
     },
     "run13": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 3,
-        "Instance": "email",
-	"UB mode": "GRE"
+        "Instance": "email"
     },
     "run14": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 3,
-        "Instance": "data",
-	"UB mode": "GRE"
+        "Instance": "data"
     },
     "run15": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 3,
-        "Instance": "karate",
-	"UB mode": "IP"
+        "Instance": "karate"
     },
     "run16": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 3,
-        "Instance": "chesapeake",
-	"UB mode": "IP"
+        "Instance": "chesapeake"
     },
     "run17": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 3,
-        "Instance": "dolphins",
-	"UB mode": "IP"
+        "Instance": "dolphins"
     },
     "run18": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 3,
-        "Instance": "lesmis",
-	"UB mode": "IP"
+        "Instance": "lesmis"
     },
     "run19": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 3,
-        "Instance": "polbooks",
-	"UB mode": "IP"
+        "Instance": "polbooks"
     },
     "run20": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 3,
-        "Instance": "adjnoun",
-	"UB mode": "IP"
+        "Instance": "adjnoun"
     },
     "run21": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 3,
-        "Instance": "football",
-	"UB mode": "IP"
+        "Instance": "football"
     },
     "run22": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 3,
-        "Instance": "jazz",
-	"UB mode": "IP"
+        "Instance": "jazz"
     },
     "run23": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 3,
-        "Instance": "celegansneural",
-	"UB mode": "IP"
+        "Instance": "celegansneural"
     },
     "run24": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 3,
-        "Instance": "celegans_metabolic",
-	"UB mode": "IP"
+        "Instance": "celegans_metabolic"
     },
     "run25": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 3,
-        "Instance": "netscience",
-	"UB mode": "IP"
+        "Instance": "netscience"
     },
     "run26": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 3,
-        "Instance": "polblogs",
-	"UB mode": "IP"
+        "Instance": "polblogs"
     },
     "run27": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 3,
-        "Instance": "email",
-	"UB mode": "IP"
+        "Instance": "email"
     },
     "run28": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 3,
-        "Instance": "data",
-	"UB mode": "IP"
+        "Instance": "data"
     },
     "run29": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 5,
-        "Instance": "karate",
-	"UB mode": "GRE"
+        "Instance": "karate"
     },
     "run30": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 5,
-        "Instance": "chesapeake",
-	"UB mode": "GRE"
+        "Instance": "chesapeake"
     },
     "run31": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 5,
-        "Instance": "dolphins",
-	"UB mode": "GRE"
+        "Instance": "dolphins"
     },
     "run32": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 5,
-        "Instance": "lesmis",
-	"UB mode": "GRE"
+        "Instance": "lesmis"
     },
     "run33": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 5,
-        "Instance": "polbooks",
-	"UB mode": "GRE"
+        "Instance": "polbooks"
     },
     "run34": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 5,
-        "Instance": "adjnoun",
-	"UB mode": "GRE"
+        "Instance": "adjnoun"
     },
     "run35": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 5,
-        "Instance": "football",
-	"UB mode": "GRE"
+        "Instance": "football"
     },
     "run36": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 5,
-        "Instance": "jazz",
-	"UB mode": "GRE"
+        "Instance": "jazz"
     },
     "run37": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 5,
-        "Instance": "celegansneural",
-	"UB mode": "GRE"
+        "Instance": "celegansneural"
     },
     "run38": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 5,
-        "Instance": "celegans_metabolic",
-	"UB mode": "GRE"
+        "Instance": "celegans_metabolic"
     },
     "run39": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 5,
-        "Instance": "netscience",
-	"UB mode": "GRE"
+        "Instance": "netscience"
     },
     "run40": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 5,
-        "Instance": "polblogs",
-	"UB mode": "GRE"
+        "Instance": "polblogs"
     },
     "run41": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 5,
-        "Instance": "email",
-	"UB mode": "GRE"
+        "Instance": "email"
     },
     "run42": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "GRE",
         "s": 5,
-        "Instance": "data",
-	"UB mode": "GRE"
+        "Instance": "data"
     },
     "run43": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 5,
-        "Instance": "karate",
-	"UB mode": "IP"
+        "Instance": "karate"
     },
     "run44": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 5,
-        "Instance": "chesapeake",
-	"UB mode": "IP"
+        "Instance": "chesapeake"
     },
     "run45": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 5,
-        "Instance": "dolphins",
-	"UB mode": "IP"
+        "Instance": "dolphins"
     },
     "run46": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 5,
-        "Instance": "lesmis",
-	"UB mode": "IP"
+        "Instance": "lesmis"
     },
     "run47": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 5,
-        "Instance": "polbooks",
-	"UB mode": "IP"
+        "Instance": "polbooks"
     },
     "run48": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 5,
-        "Instance": "adjnoun",
-	"UB mode": "IP"
+        "Instance": "adjnoun"
     },
     "run49": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 5,
-        "Instance": "football",
-	"UB mode": "IP"
+        "Instance": "football"
     },
     "run50": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 5,
-        "Instance": "jazz",
-	"UB mode": "IP"
+        "Instance": "jazz"
     },
     "run51": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 5,
-        "Instance": "celegansneural",
-	"UB mode": "IP"
+        "Instance": "celegansneural"
     },
     "run52": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 5,
-        "Instance": "celegans_metabolic",
-	"UB mode": "IP"
+        "Instance": "celegans_metabolic"
     },
     "run53": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 5,
-        "Instance": "netscience",
-	"UB mode": "IP"
+        "Instance": "netscience"
     },
     "run54": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 5,
-        "Instance": "polblogs",
-	"UB mode": "IP"
+        "Instance": "polblogs"
     },
     "run55": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 5,
-        "Instance": "email",
-	"UB mode": "IP"
+        "Instance": "email"
     },
     "run56": {
-	"Problem": "Partitioning",
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "IP",
         "s": 5,
-        "Instance": "data",
-	"UB mode": "IP"
+        "Instance": "data"
     }
 }

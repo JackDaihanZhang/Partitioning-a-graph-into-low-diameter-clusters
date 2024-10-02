@@ -3,84 +3,72 @@
 	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 5,
-        "Instance": "polblogs",
-	"UB mode": "IP"
+        "Instance": "polblogs"
     },
     "run2": {
 	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 5,
-        "Instance": "email",
-	"UB mode": "IP"
+        "Instance": "email"
     },
     "run3": {
 	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 5,
-        "Instance": "data",
-	"UB mode": "IP"
+        "Instance": "data"
     },
     "run4": {
 	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 5,
-        "Instance": "polblogs",
-	"UB mode": "IP"
+        "Instance": "polblogs"
     },
     "run5": {
 	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 5,
-        "Instance": "email",
-	"UB mode": "IP"
+        "Instance": "email"
     },
     "run6": {
 	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 5,
-        "Instance": "data",
-	"UB mode": "IP"
+        "Instance": "data"
     },
     "run7": {
 	"Problem": "Covering",
         "Model": "ext_label",
         "s": 5,
-        "Instance": "polblogs",
-	"UB mode": "IP"
+        "Instance": "polblogs"
     },
     "run8": {
 	"Problem": "Covering",
         "Model": "ext_label",
         "s": 5,
-        "Instance": "email",
-	"UB mode": "IP"
+        "Instance": "email"
     },
     "run9": {
 	"Problem": "Covering",
         "Model": "ext_label",
         "s": 5,
-        "Instance": "data",
-	"UB mode": "IP"
+        "Instance": "data"
     },
     "run10": {
 	"Problem": "Covering",
         "Model": "Sasha",
         "s": 5,
-        "Instance": "polblogs",
-	"UB mode": "IP"
+        "Instance": "polblogs"
     },
     "run11": {
 	"Problem": "Covering",
         "Model": "Sasha",
         "s": 5,
-        "Instance": "email",
-	"UB mode": "IP"
+        "Instance": "email"
     },
     "run12": {
 	"Problem": "Covering",
         "Model": "Sasha",
         "s": 5,
-        "Instance": "data",
-	"UB mode": "IP"
+        "Instance": "data"
     }
 }

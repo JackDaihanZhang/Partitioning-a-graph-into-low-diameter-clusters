@@ -55,7 +55,7 @@ results_filename = "../results_for_" + config_filename_wo_extension + "/results_
                    "_" + today_string + ".csv"
 # Delete the last field
 fields = ["Instance", "Problem", "s", "Model", "|V|", "|E|", "LB", "LB Time (seconds)",
-          "UB_mode", "UB", "UB Time (seconds)", "Total Time (seconds)", "Objective Value", "Objective Bound"]
+          "UB", "UB Time (seconds)", "Total Time (seconds)", "Objective Value", "Objective Bound"]
 
 
 ################################################
@@ -83,18 +83,18 @@ for key in batch_configs.keys():
     # Read in the instance configuration
     config = batch_configs[key]
     problem = config['Problem']
-    print("Problem:", problem)
     s = config['s']
     base = config['Model']
     instance = config['Instance']
-    UB_mode = config['UB mode']
-    if problem != "Partitioning" and problem != "Covering":
+    if problem not in ["Partitioning", "Covering", "LB+UB"]:
         print("Invalid problem.")
         sys.exit()
-    if base == "LB+UB":
+    if problem == "LB+UB":
         models = False
+        UB_mode = base
     else:
         models = True
+        UB_mode = "IP"
     if s < 2:
         print("Invalid s.")
         sys.exit()
@@ -112,7 +112,7 @@ for key in batch_configs.keys():
     G_induced_subgraphs = [G_original.subgraph(component) for component in nx.connected_components(G_original)]
 
     # Initialize final variables
-    if base == "LB+UB":
+    if problem == "LB+UB":
         obj_Value = "N/A"
         obj_Bound = "N/A"
     else:
@@ -150,7 +150,7 @@ for key in batch_configs.keys():
         UB += UB_iteration
 
         # Solve to optimality if the base is not LB+UB
-        if base != "LB+UB":
+        if problem != "LB+UB":
             if LB_iteration == UB_iteration:
                 print("LB = UB in this iteration, and the optimal is found")
                 # Add iteration variables to final variables
@@ -188,7 +188,6 @@ for key in batch_configs.keys():
     result["|E|"] = len(G_original.edges)
     result["LB"] = LB
     result["LB Time (seconds)"] = '{0:.2f}'.format(LB_Time)
-    result["UB_mode"] = UB_mode
     result["UB"] = UB
     result["UB Time (seconds)"] = '{0:.2f}'.format(UB_Time)
     result["Total Time (seconds)"] = '{0:.2f}'.format(total_time)

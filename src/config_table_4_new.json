@@ -3,168 +3,144 @@
 	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 2,
-        "Instance": "dolphins",
-	"UB mode": "IP"
+        "Instance": "dolphins"
     },
     "run2": {
 	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 2,
-        "Instance": "polbooks",
-	"UB mode": "IP"
+        "Instance": "polbooks"
     },
     "run3": {
 	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 2,
-        "Instance": "football",
-	"UB mode": "IP"
+        "Instance": "football"
     },
     "run4": {
 	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 2,
-        "Instance": "celegansneural",
-	"UB mode": "IP"
+        "Instance": "celegansneural"
     },
     "run5": {
 	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 2,
-        "Instance": "email",
-	"UB mode": "IP"
+        "Instance": "email"
     },
     "run6": {
 	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 2,
-        "Instance": "data",
-	"UB mode": "IP"
+        "Instance": "data"
     },
     "run7": {
 	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 2,
-        "Instance": "dolphins",
-	"UB mode": "IP"
+        "Instance": "dolphins"
     },
     "run8": {
 	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 2,
-        "Instance": "polbooks",
-	"UB mode": "IP"
+        "Instance": "polbooks"
     },
     "run9": {
 	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 2,
-        "Instance": "football",
-	"UB mode": "IP"
+        "Instance": "football"
     },
     "run10": {
 	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 2,
-        "Instance": "celegansneural",
-	"UB mode": "IP"
+        "Instance": "celegansneural"
     },
     "run11": {
 	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 2,
-        "Instance": "email",
-	"UB mode": "IP"
+        "Instance": "email"
     },
     "run12": {
 	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 2,
-        "Instance": "data",
-	"UB mode": "IP"
+        "Instance": "data"
     },
     "run13": {
 	"Problem": "Covering",
         "Model": "ext_label",
         "s": 2,
-        "Instance": "dolphins",
-	"UB mode": "IP"
+        "Instance": "dolphins"
     },
     "run14": {
 	"Problem": "Covering",
         "Model": "ext_label",
         "s": 2,
-        "Instance": "polbooks",
-	"UB mode": "IP"
+        "Instance": "polbooks"
     },
     "run15": {
 	"Problem": "Covering",
         "Model": "ext_label",
         "s": 2,
-        "Instance": "football",
-	"UB mode": "IP"
+        "Instance": "football"
     },
     "run16": {
 	"Problem": "Covering",
         "Model": "ext_label",
         "s": 2,
-        "Instance": "celegansneural",
-	"UB mode": "IP"
+        "Instance": "celegansneural"
     },
     "run17": {
 	"Problem": "Covering",
         "Model": "ext_label",
         "s": 2,
-        "Instance": "email",
-	"UB mode": "IP"
+        "Instance": "email"
     },
     "run18": {
 	"Problem": "Covering",
         "Model": "ext_label",
         "s": 2,
-        "Instance": "data",
-	"UB mode": "IP"
+        "Instance": "data"
     },
     "run19": {
 	"Problem": "Covering",
         "Model": "Sasha",
         "s": 2,
-        "Instance": "dolphins",
-	"UB mode": "IP"
+        "Instance": "dolphins"
     },
     "run20": {
 	"Problem": "Covering",
         "Model": "Sasha",
         "s": 2,
-        "Instance": "polbooks",
-	"UB mode": "IP"
+        "Instance": "polbooks"
     },
     "run21": {
 	"Problem": "Covering",
         "Model": "Sasha",
         "s": 2,
-        "Instance": "football",
-	"UB mode": "IP"
+        "Instance": "football"
     },
     "run22": {
 	"Problem": "Covering",
         "Model": "Sasha",
         "s": 2,
-        "Instance": "celegansneural",
-	"UB mode": "IP"
+        "Instance": "celegansneural"
     },
     "run23": {
 	"Problem": "Covering",
         "Model": "Sasha",
         "s": 2,
-        "Instance": "email",
-	"UB mode": "IP"
+        "Instance": "email"
     },
     "run24": {
 	"Problem": "Covering",
         "Model": "Sasha",
         "s": 2,
-        "Instance": "data",
-	"UB mode": "IP"
+        "Instance": "data"
     }
 }

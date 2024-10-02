@@ -3,112 +3,96 @@
 	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 4,
-        "Instance": "celegansneural",
-	"UB mode": "IP"
+        "Instance": "celegansneural"
     },
     "run2": {
 	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 4,
-        "Instance": "polblogs",
-	"UB mode": "IP"
+        "Instance": "polblogs"
     },
     "run3": {
 	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 4,
-        "Instance": "email",
-	"UB mode": "IP"
+        "Instance": "email"
     },
     "run4": {
 	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 4,
-        "Instance": "data",
-	"UB mode": "IP"
+        "Instance": "data"
     },
     "run5": {
 	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 4,
-        "Instance": "celegansneural",
-	"UB mode": "IP"
+        "Instance": "celegansneural"
     },
     "run6": {
 	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 4,
-        "Instance": "polblogs",
-	"UB mode": "IP"
+        "Instance": "polblogs"
     },
     "run7": {
 	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 4,
-        "Instance": "email",
-	"UB mode": "IP"
+        "Instance": "email"
     },
     "run8": {
 	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 4,
-        "Instance": "data",
-	"UB mode": "IP"
+        "Instance": "data"
     },
     "run9": {
 	"Problem": "Covering",
         "Model": "ext_label",
         "s": 4,
-        "Instance": "celegansneural",
-	"UB mode": "IP"
+        "Instance": "celegansneural"
     },
     "run10": {
 	"Problem": "Covering",
         "Model": "ext_label",
         "s": 4,
-        "Instance": "polblogs",
-	"UB mode": "IP"
+        "Instance": "polblogs"
     },
     "run11": {
 	"Problem": "Covering",
         "Model": "ext_label",
         "s": 4,
-        "Instance": "email",
-	"UB mode": "IP"
+        "Instance": "email"
     },
     "run12": {
 	"Problem": "Covering",
         "Model": "ext_label",
         "s": 4,
-        "Instance": "data",
-	"UB mode": "IP"
+        "Instance": "data"
     },
     "run13": {
 	"Problem": "Covering",
         "Model": "Sasha",
         "s": 4,
-        "Instance": "celegansneural",
-	"UB mode": "IP"
+        "Instance": "celegansneural"
     },
     "run14": {
 	"Problem": "Covering",
         "Model": "Sasha",
         "s": 4,
-        "Instance": "polblogs",
-	"UB mode": "IP"
+        "Instance": "polblogs"
     },
     "run15": {
 	"Problem": "Covering",
         "Model": "Sasha",
         "s": 4,
-        "Instance": "email",
-	"UB mode": "IP"
+        "Instance": "email"
     },
     "run16": {
 	"Problem": "Covering",
         "Model": "Sasha",
         "s": 4,
-        "Instance": "data",
-	"UB mode": "IP"
+        "Instance": "data"
     }
 }

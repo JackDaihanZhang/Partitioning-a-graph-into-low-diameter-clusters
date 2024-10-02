@@ -1,225 +1,194 @@
 {
     "run1": {
+	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 3,
-        "Instance": "dolphins",
-	"UB mode": "IP"
+        "Instance": "dolphins"
     },
     "run2": {
 	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 3,
-        "Instance": "polbooks",
-	"UB mode": "IP"
+        "Instance": "polbooks"
     },
     "run3": {
 	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 3,
-        "Instance": "football",
-	"UB mode": "IP"
+        "Instance": "football"
     },
     "run4": {
 	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 3,
-        "Instance": "celegansneural",
-	"UB mode": "IP"
+        "Instance": "celegansneural"
     },
     "run5": {
 	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 3,
-        "Instance": "netscience",
-	"UB mode": "IP"
+        "Instance": "netscience"
     },
     "run6": {
 	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 3,
-        "Instance": "polblogs",
-	"UB mode": "IP"
+        "Instance": "polblogs"
     },
     "run7": {
 	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 3,
-        "Instance": "email",
-	"UB mode": "IP"
+        "Instance": "email"
     },
     "run8": {
 	"Problem": "Partitioning",
         "Model": "ext_label",
         "s": 3,
-        "Instance": "data",
-	"UB mode": "IP"
+        "Instance": "data"
     },
     "run9": {
 	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 3,
-        "Instance": "dolphins",
-	"UB mode": "IP"
+        "Instance": "dolphins"
     },
     "run10": {
 	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 3,
-        "Instance": "polbooks",
-	"UB mode": "IP"
+        "Instance": "polbooks"
     },
     "run11": {
 	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 3,
-        "Instance": "football",
-	"UB mode": "IP"
+        "Instance": "football"
     },
     "run12": {
 	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 3,
-        "Instance": "celegansneural",
-	"UB mode": "IP"
+        "Instance": "celegansneural"
     },
     "run13": {
 	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 3,
-        "Instance": "netscience",
-	"UB mode": "IP"
+        "Instance": "netscience"
     },
     "run14": {
 	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 3,
-        "Instance": "polblogs",
-	"UB mode": "IP"
+        "Instance": "polblogs"
     },
     "run15": {
 	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 3,
-        "Instance": "email",
-	"UB mode": "IP"
+        "Instance": "email"
     },
     "run16": {
 	"Problem": "Partitioning",
         "Model": "Sasha",
         "s": 3,
-        "Instance": "data",
-	"UB mode": "IP"
+        "Instance": "data"
     },
     "run17": {
 	"Problem": "Covering",
         "Model": "ext_label",
         "s": 3,
-        "Instance": "dolphins",
-	"UB mode": "IP"
+        "Instance": "dolphins"
     },
     "run18": {
 	"Problem": "Covering",
         "Model": "ext_label",
         "s": 3,
-        "Instance": "polbooks",
-	"UB mode": "IP"
+        "Instance": "polbooks"
     },
     "run19": {
 	"Problem": "Covering",
         "Model": "ext_label",
         "s": 3,
-        "Instance": "football",
-	"UB mode": "IP"
+        "Instance": "football"
     },
     "run20": {
 	"Problem": "Covering",
         "Model": "ext_label",
         "s": 3,
-        "Instance": "celegansneural",
-	"UB mode": "IP"
+        "Instance": "celegansneural"
     },
     "run21": {
 	"Problem": "Covering",
         "Model": "ext_label",
         "s": 3,
-        "Instance": "netscience",
-	"UB mode": "IP"
+        "Instance": "netscience"
     },
     "run22": {
 	"Problem": "Covering",
         "Model": "ext_label",
         "s": 3,
-        "Instance": "polblogs",
-	"UB mode": "IP"
+        "Instance": "polblogs"
     },
     "run23": {
 	"Problem": "Covering",
         "Model": "ext_label",
         "s": 3,
-        "Instance": "email",
-	"UB mode": "IP"
+        "Instance": "email"
     },
     "run24": {
 	"Problem": "Covering",
         "Model": "ext_label",
         "s": 3,
-        "Instance": "data",
-	"UB mode": "IP"
+        "Instance": "data"
     },
     "run25": {
 	"Problem": "Covering",
         "Model": "Sasha",
         "s": 3,
-        "Instance": "dolphins",
-	"UB mode": "IP"
+        "Instance": "dolphins"
     },
     "run26": {
 	"Problem": "Covering",
         "Model": "Sasha",
         "s": 3,
-        "Instance": "polbooks",
-	"UB mode": "IP"
+        "Instance": "polbooks"
     },
     "run27": {
 	"Problem": "Covering",
         "Model": "Sasha",
         "s": 3,
-        "Instance": "football",
-	"UB mode": "IP"
+        "Instance": "football"
     },
     "run28": {
 	"Problem": "Covering",
         "Model": "Sasha",
         "s": 3,
-        "Instance": "celegansneural",
-	"UB mode": "IP"
+        "Instance": "celegansneural"
     },
     "run29": {
 	"Problem": "Covering",
         "Model": "Sasha",
         "s": 3,
-        "Instance": "netscience",
-	"UB mode": "IP"
+        "Instance": "netscience"
     },
     "run30": {
 	"Problem": "Covering",
         "Model": "Sasha",
         "s": 3,
-        "Instance": "polblogs",
-	"UB mode": "IP"
+        "Instance": "polblogs"
     },
     "run31": {
 	"Problem": "Covering",
         "Model": "Sasha",
         "s": 3,
-        "Instance": "email",
-	"UB mode": "IP"
+        "Instance": "email"
     },
     "run32": {
 	"Problem": "Covering",
         "Model": "Sasha",
         "s": 3,
-        "Instance": "data",
-	"UB mode": "IP"
+        "Instance": "data"
     }
 }
