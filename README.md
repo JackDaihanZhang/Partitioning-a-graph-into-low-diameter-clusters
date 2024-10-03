@@ -24,97 +24,349 @@ C:\Partitioning-a-graph-into-low-diameter-clusters\src>python main.py config.jso
 
 ## config.json
 The config file can specify a batch of runs. A particular run might look like this:
-* "Model": "LB+UB"
+* "Problem": "LB+UB"
+* "Model": "APX"
 * "s": 2
 * "Instance": "karate"
-* "Binary search": false
 
 The config.json file might look like this:
 ```
 {
     "run1": {
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "APX",
         "s": 2,
-        "Instance": "karate",
-	"Binary search": false
+        "Instance": "karate"
     },
     "run2": {
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "APX",
         "s": 2,
-        "Instance": "chesapeake",
-	"Binary search": false
+        "Instance": "chesapeake"
     },
     "run3": {
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "APX",
         "s": 2,
-        "Instance": "dolphins",
-	"Binary search": false
+        "Instance": "dolphins"
     },
     "run4": {
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "APX",
         "s": 2,
-        "Instance": "lesmis",
-	"Binary search": false
+        "Instance": "lesmis"
     },
     "run5": {
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "APX",
         "s": 2,
-        "Instance": "polbooks",
-	"Binary search": false
+        "Instance": "polbooks"
     },
     "run6": {
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "APX",
         "s": 2,
-        "Instance": "adjnoun",
-	"Binary search": false
+        "Instance": "adjnoun"
     },
     "run7": {
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "APX",
         "s": 2,
-        "Instance": "football",
-	"Binary search": false
+        "Instance": "football"
     },
     "run8": {
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "APX",
         "s": 2,
-        "Instance": "jazz",
-	"Binary search": false
+        "Instance": "jazz"
     },
     "run9": {
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "APX",
         "s": 2,
-        "Instance": "celegansneural",
-	"Binary search": false
+        "Instance": "celegansneural"
     },
     "run10": {
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "APX",
         "s": 2,
-        "Instance": "celegans_metabolic",
-	"Binary search": false
+        "Instance": "celegans_metabolic"
     },
     "run11": {
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "APX",
         "s": 2,
-        "Instance": "netscience",
-	"Binary search": false
+        "Instance": "netscience"
     },
     "run12": {
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "APX",
         "s": 2,
-        "Instance": "polblogs",
-	"Binary search": false
+        "Instance": "polblogs"
     },
     "run13": {
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "APX",
         "s": 2,
-        "Instance": "email",
-	"Binary search": false
+        "Instance": "email"
     },
     "run14": {
-        "Model": "LB+UB",
+	"Problem": "LB+UB",
+        "Model": "APX",
         "s": 2,
-        "Instance": "data",
-	"Binary search": false
+        "Instance": "data"
+    },
+    "run15": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 2,
+        "Instance": "karate"
+    },
+    "run16": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 2,
+        "Instance": "chesapeake"
+    },
+    "run17": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 2,
+        "Instance": "dolphins"
+    },
+    "run18": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 2,
+        "Instance": "lesmis"
+    },
+    "run19": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 2,
+        "Instance": "polbooks"
+    },
+    "run20": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 2,
+        "Instance": "adjnoun"
+    },
+    "run21": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 2,
+        "Instance": "football"
+    },
+    "run22": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 2,
+        "Instance": "jazz"
+    },
+    "run23": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 2,
+        "Instance": "celegansneural"
+    },
+    "run24": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 2,
+        "Instance": "celegans_metabolic"
+    },
+    "run25": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 2,
+        "Instance": "netscience"
+    },
+    "run26": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 2,
+        "Instance": "polblogs"
+    },
+    "run27": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 2,
+        "Instance": "email"
+    },
+    "run28": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 2,
+        "Instance": "data"
+    },
+    "run29": {
+	"Problem": "LB+UB",
+        "Model": "APX",
+        "s": 4,
+        "Instance": "karate"
+    },
+    "run30": {
+	"Problem": "LB+UB",
+        "Model": "APX",
+        "s": 4,
+        "Instance": "chesapeake"
+    },
+    "run31": {
+	"Problem": "LB+UB",
+        "Model": "APX",
+        "s": 4,
+        "Instance": "dolphins"
+    },
+    "run32": {
+	"Problem": "LB+UB",
+        "Model": "APX",
+        "s": 4,
+        "Instance": "lesmis"
+    },
+    "run33": {
+	"Problem": "LB+UB",
+        "Model": "APX",
+        "s": 4,
+        "Instance": "polbooks"
+    },
+    "run34": {
+	"Problem": "LB+UB",
+        "Model": "APX",
+        "s": 4,
+        "Instance": "adjnoun"
+    },
+    "run35": {
+	"Problem": "LB+UB",
+        "Model": "APX",
+        "s": 4,
+        "Instance": "football"
+    },
+    "run36": {
+	"Problem": "LB+UB",
+        "Model": "APX",
+        "s": 4,
+        "Instance": "jazz"
+    },
+    "run37": {
+	"Problem": "LB+UB",
+        "Model": "APX",
+        "s": 4,
+        "Instance": "celegansneural"
+    },
+    "run38": {
+	"Problem": "LB+UB",
+        "Model": "APX",
+        "s": 4,
+        "Instance": "celegans_metabolic"
+    },
+    "run39": {
+	"Problem": "LB+UB",
+        "Model": "APX",
+        "s": 4,
+        "Instance": "netscience"
+    },
+    "run40": {
+	"Problem": "LB+UB",
+        "Model": "APX",
+        "s": 4,
+        "Instance": "polblogs"
+    },
+    "run41": {
+	"Problem": "LB+UB",
+        "Model": "APX",
+        "s": 4,
+        "Instance": "email"
+    },
+    "run42": {
+	"Problem": "LB+UB",
+        "Model": "APX",
+        "s": 4,
+        "Instance": "data"
+    },
+    "run43": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 4,
+        "Instance": "karate"
+    },
+    "run44": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 4,
+        "Instance": "chesapeake"
+    },
+    "run45": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 4,
+        "Instance": "dolphins"
+    },
+    "run46": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 4,
+        "Instance": "lesmis"
+    },
+    "run47": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 4,
+        "Instance": "polbooks"
+    },
+    "run48": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 4,
+        "Instance": "adjnoun"
+    },
+    "run49": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 4,
+        "Instance": "football"
+    },
+    "run50": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 4,
+        "Instance": "jazz"
+    },
+    "run51": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 4,
+        "Instance": "celegansneural"
+    },
+    "run52": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 4,
+        "Instance": "celegans_metabolic"
+    },
+    "run53": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 4,
+        "Instance": "netscience"
+    },
+    "run54": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 4,
+        "Instance": "polblogs"
+    },
+    "run55": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 4,
+        "Instance": "email"
+    },
+    "run56": {
+	"Problem": "LB+UB",
+        "Model": "IP",
+        "s": 4,
+        "Instance": "data"
     }
 }
 ```
