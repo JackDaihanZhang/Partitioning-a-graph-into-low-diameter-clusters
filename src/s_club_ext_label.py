@@ -24,23 +24,23 @@ def solve_s_club_ext_label(G, s, potential_roots, clusters, max_k, problem):
     m._s = s
     m._k = max_k
 
-    # Initialize the variables - (7.f)
+    # Initialize the variables - (10.f)
     m._X = m.addVars(G.nodes, range(max_k), vtype=GRB.BINARY)
     m._Y = m.addVars(range(max_k), vtype=GRB.CONTINUOUS)
 
-    # Set the objective function - (7.a)
+    # Set the objective function - (10.a)
     m.setObjective(gp.quicksum(m._Y), GRB.MINIMIZE)
 
-    # Assignment constraints - (7.b)
+    # Assignment constraints - (10.b)
     if problem == "Partitioning":
         m.addConstrs(gp.quicksum(m._X[v, j] for j in range(max_k)) == 1 for v in G.nodes)
     else:
         m.addConstrs(gp.quicksum(m._X[v, j] for j in range(max_k)) >= 1 for v in G.nodes)
 
-    # Coupling constraints - (7.c)
+    # Coupling constraints - (10.c)
     m.addConstrs(m._X[v, j] <= m._Y[j] for v in G.nodes for j in range(max_k))
 
-    # Sequential constraints - (7.d)
+    # Sequential constraints - (10.d)
     m._Y[0].ub = 1
     m.addConstrs(m._Y[j] >= m._Y[j + 1] for j in range(max_k - 1))
 
@@ -67,17 +67,14 @@ def solve_s_club_ext_label(G, s, potential_roots, clusters, max_k, problem):
     # Warm starting with nodes belonging to partitions containing potential root
     if len(clusters) != 0:
         index_of_clusters = len(potential_roots) - 1
-
         for cluster in clusters:
             flag = False
-
             # If there is a potential root inside the cluster, this number does not grow
             for j in range(len(potential_roots)):
                 if potential_roots[j] in cluster:
                     flag = True
                     for vertex in cluster:
                         m._X[vertex, j].start = 1
-
             # If it's not, create a new one
             if not flag:
                 index_of_clusters += 1

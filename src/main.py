@@ -36,7 +36,6 @@ if len(sys.argv) > 1:
 else:
     config_filename = 'config.json'  # default
 
-print("Here is the config name: ", config_filename)
 print("Reading config from ", config_filename)
 
 config_filename_wo_extension = config_filename.rsplit('.', 1)[0]
@@ -94,6 +93,7 @@ for key in batch_configs.keys():
         UB_mode = base
     else:
         models = True
+        # The default UB_mode is IP unless specified otherwise
         UB_mode = "IP"
     if s < 2:
         print("Invalid s.")

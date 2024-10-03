@@ -6,8 +6,8 @@ import networkx as nx
 import copy
 
 
-# The code in this file corresponds to the upper-bound calculation in section 3.2
-# When s is even (section 3.2.1)
+# The code in this file corresponds to the upper-bound calculation in section 3
+# When s is even (section 3.1 and section 3.2)
 def calculate_UB_even(G, s, UB_mode, problem):
     # Creating the s/2 power graph
     r = int(s / 2)
@@ -48,34 +48,23 @@ def calculate_UB_even(G, s, UB_mode, problem):
         D = []
         remaining_vertices = copy.deepcopy(list(G.nodes()))
         while U:
-            print("U: ", U)
-            # Step 4: Pick a vertex that maximizes |NH[v] ∩ U|
+            # Pick a vertex that maximizes |NH[v] ∩ U|
             best_vertex = None
             max_intersection_size = -1
-
-            # Find all maximal cliques in the graph
             for v in remaining_vertices:
-
                 closed_neighborhood = {v}.union(nx.node_boundary(H, {v}))
-
                 # Compute the intersection with U
                 intersection_size = len(closed_neighborhood.intersection(U))
-
                 # Keep track of the clique with the maximum intersection
                 if intersection_size > max_intersection_size:
                     best_vertex = v
                     max_intersection_size = intersection_size
-
-            # Step 5: Add the selected maximal clique to cliques_list
             if best_vertex is not None:
                 D.append(best_vertex)
             remaining_vertices.remove(best_vertex)
-
-            # Step 6: Update U by removing all vertices in NH[v] from U
+            # Update U by removing all vertices in NH[v] from U
             closed_neighborhood_best_vertex = {best_vertex}.union(nx.node_boundary(H, {best_vertex}))
-            # print("closed_neighborhood: ", closed_neighborhood_best_clique)
             U.difference_update(closed_neighborhood_best_vertex)
-
     else:
         print("Invalid UB_mode")
         sys.exit()
@@ -101,7 +90,7 @@ def calculate_UB_even(G, s, UB_mode, problem):
         sys.exit()
 
 
-# When s is odd (section 3.2.2)
+# When s is odd (section 3.5)
 def calculate_UB_odd(G, s, UB_mode, problem):
     # Find the diameter and take the power graph
     d = (s - 1) // 2
@@ -109,7 +98,6 @@ def calculate_UB_odd(G, s, UB_mode, problem):
 
     # Create a list of the set of maximal cliques in H
     cliques = list(nx.find_cliques(G))
-
     selected_clique_list = []
 
     if UB_mode == "IP":
@@ -123,7 +111,7 @@ def calculate_UB_odd(G, s, UB_mode, problem):
         # Set the objective function
         m.setObjective(gp.quicksum(z[index] for index in range(len(cliques))), GRB.MINIMIZE)
 
-        # Create a linear expression for every node that corresponds to the LHS of (6b)
+        # Create a linear expression for every node that corresponds to the LHS of (9b)
         expr = [LinExpr() for _ in G.nodes]
         for index in range(len(cliques)):
             # If the vertex belongs to the clique, add the z variable corresponding to the clique to the vertex's LinExpr
@@ -134,7 +122,7 @@ def calculate_UB_odd(G, s, UB_mode, problem):
             for vertex in nx.node_boundary(H, cliques[index], None):
                 expr[vertex] += z[index]
 
-        # Add constraint (6b)
+        # Add constraint (9b)
         m.addConstrs(expr[i] >= 1 for i in G.nodes)
 
         # Set the parameters
@@ -162,43 +150,35 @@ def calculate_UB_odd(G, s, UB_mode, problem):
         else:
             print("Unexpected model status from calculate_UB_odd")
             sys.exit()
-
     elif UB_mode == "GRE":
         U = set(G.nodes())
         seen_vertices = set()
         remaining_clique_list = copy.deepcopy(cliques)
         while U:
-            # Step 4: Pick a maximal clique Q that maximizes |NH[Q] ∩ U|
+            # Pick a maximal clique Q that maximizes |NH[Q] ∩ U|
             best_clique = None
             max_intersection_size = -1
-
             # Find all maximal cliques in the graph
             for clique in remaining_clique_list:
                 # Convert the clique to a set for easier operations
                 clique_set = set(clique)
-
                 # Find NH[Q] (the closed neighborhood of Q)
                 closed_neighborhood = set(clique_set).union(nx.node_boundary(H, clique_set))
-
                 # Compute the intersection with U
                 intersection_size = len(closed_neighborhood.intersection(U))
-
                 # Keep track of the clique with the maximum intersection
                 if intersection_size > max_intersection_size:
                     best_clique_list = clique
                     best_clique = clique_set
                     best_clique_filtered = clique_set - seen_vertices
                     max_intersection_size = intersection_size
-
-            # Step 5: Add the selected maximal clique to cliques_list
+            # Add the selected maximal clique to cliques_list
             if best_clique is not None:
                 selected_clique_list.append(best_clique_filtered)
             remaining_clique_list.remove(best_clique_list)
-
-            # Step 6: Update U by removing all vertices in NH[Q] from U
+            # Update U by removing all vertices in NH[Q] from U
             closed_neighborhood_best_clique = set(best_clique).union(nx.node_boundary(H, best_clique))
             U.difference_update(closed_neighborhood_best_clique)
-
     else:
         print("Invalid UB_mode")
         sys.exit()
