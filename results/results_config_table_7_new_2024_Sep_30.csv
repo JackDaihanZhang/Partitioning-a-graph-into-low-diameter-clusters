@@ -1,0 +1,13 @@
+Instance,Problem,Model,s,|V|,|E|,LB,LB Time (seconds),UB_mode,UB,UB Time (seconds),Total Time (seconds),Objective Value,Objective Bound
+polblogs,Partitioning,ext_label,5,1490,16715,272,6.64,IP,273,84.92,3763.18,273,272
+email,Partitioning,ext_label,5,1133,5451,16,8.17,IP,20,3.77,3624.03,20,16
+data,Partitioning,ext_label,5,2851,15093,67,28.2,IP,68,3.77,2676.61,68,68
+polblogs,Partitioning,Sasha,5,1490,16715,272,6.81,IP,273,89.57,1669.02,273,272
+email,Partitioning,Sasha,5,1133,5451,16,8.07,IP,20,3.94,2408.14,20,16
+data,Partitioning,Sasha,5,2851,15093,67,28.62,IP,68,3.82,3103.31,68,67
+polblogs,Covering,ext_label,5,1490,16715,272,6.33,IP,273,85.67,566.08,272,272
+email,Covering,ext_label,5,1133,5451,16,8.26,IP,20,3.71,3706.73,20,16
+data,Covering,ext_label,5,2851,15093,67,28.8,IP,68,3.9,3835.36,68,67
+polblogs,Covering,Sasha,5,1490,16715,272,6.57,IP,273,88.66,1675.86,273,272
+email,Covering,Sasha,5,1133,5451,16,8.47,IP,20,4.43,2409.31,20,16
+data,Covering,Sasha,5,2851,15093,67,29.27,IP,68,4.26,3001.59,68,67

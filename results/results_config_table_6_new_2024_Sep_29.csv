@@ -1,0 +1,16 @@
+Instance,Problem,Model,s,|V|,|E|,LB,LB Time (seconds),UB_mode,UB,UB Time (seconds),Total Time (seconds),Objective Value,Objective Bound
+celegansneural,Partitioning,ext_label,4,297,2148,2,0.31,IP,3,0.39,18.45,2,2
+polblogs,Partitioning,ext_label,4,1490,16715,280,7.47,IP,281,6.26,3642.07,281,280
+email,Partitioning,ext_label,4,1133,5451,37,14.25,IP,40,0.66,3675.7,40,37
+data,Partitioning,ext_label,4,2851,15093,91,14,IP,96,20.22,3707.39,96,92
+celegansneural,Partitioning,Sasha,4,297,2148,2,0.31,IP,3,0.39,1580.87,2,2
+polblogs,Partitioning,Sasha,4,1490,16715,280,7.08,IP,281,6.39,2089.19,281,280
+email,Partitioning,Sasha,4,1133,5451,37,15.18,IP,40,0.74,2827.82,40,37
+celegansneural,Covering,ext_label,4,297,2148,2,0.33,IP,3,0.42,6.8,2,2
+polblogs,Covering,ext_label,4,1490,16715,280,6.93,IP,281,5.91,3684.01,281,280
+email,Covering,ext_label,4,1133,5451,37,14.8,IP,40,0.67,3629.04,40,37.11111111
+data,Covering,ext_label,4,2851,15093,91,14.36,IP,96,20.11,5565.91,96,91
+celegansneural,Covering,Sasha,4,297,2148,2,0.31,IP,3,0.39,2365.68,2,2
+polblogs,Covering,Sasha,4,1490,16715,280,6.87,IP,281,6.38,2125.07,281,280
+email,Covering,Sasha,4,1133,5451,37,16.12,IP,40,0.72,2869.77,40,37
+data,Covering,Sasha,4,2851,15093,91,14.78,IP,96,19.88,3191.76,96,91
