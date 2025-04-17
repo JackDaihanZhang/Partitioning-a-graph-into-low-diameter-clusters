@@ -1,0 +1,3002 @@
+{
+    "run1": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 5 degree 1"
+    },
+    "run2": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 5 degree 2"
+    },
+    "run3": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 5 degree 3"
+    },
+    "run4": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 5 degree 4"
+    },
+    "run5": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 5 degree 5"
+    },
+    "run6": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 5 degree 6"
+    },
+    "run7": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 5 degree 7"
+    },
+    "run8": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 5 degree 8"
+    },
+    "run9": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 5 degree 9"
+    },
+    "run10": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 5 degree 10"
+    },
+    "run11": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 10 degree 1"
+    },
+    "run12": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 10 degree 2"
+    },
+    "run13": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 10 degree 3"
+    },
+    "run14": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 10 degree 4"
+    },
+    "run15": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 10 degree 5"
+    },
+    "run16": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 10 degree 6"
+    },
+    "run17": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 10 degree 7"
+    },
+    "run18": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 10 degree 8"
+    },
+    "run19": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 10 degree 9"
+    },
+    "run20": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 10 degree 10"
+    },
+    "run21": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 15 degree 1"
+    },
+    "run22": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 15 degree 2"
+    },
+    "run23": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 15 degree 3"
+    },
+    "run24": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 15 degree 4"
+    },
+    "run25": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 15 degree 5"
+    },
+    "run26": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 15 degree 6"
+    },
+    "run27": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 15 degree 7"
+    },
+    "run28": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 15 degree 8"
+    },
+    "run29": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 15 degree 9"
+    },
+    "run30": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 15 degree 10"
+    },
+    "run31": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 20 degree 1"
+    },
+    "run32": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 20 degree 2"
+    },
+    "run33": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 20 degree 3"
+    },
+    "run34": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 20 degree 4"
+    },
+    "run35": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 20 degree 5"
+    },
+    "run36": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 20 degree 6"
+    },
+    "run37": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 20 degree 7"
+    },
+    "run38": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 20 degree 8"
+    },
+    "run39": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 20 degree 9"
+    },
+    "run40": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 20 degree 10"
+    },
+    "run41": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 25 degree 1"
+    },
+    "run42": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 25 degree 2"
+    },
+    "run43": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 25 degree 3"
+    },
+    "run44": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 25 degree 4"
+    },
+    "run45": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 25 degree 5"
+    },
+    "run46": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 25 degree 6"
+    },
+    "run47": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 25 degree 7"
+    },
+    "run48": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 25 degree 8"
+    },
+    "run49": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 25 degree 9"
+    },
+    "run50": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "100 nodes 25 degree 10"
+    },
+    "run51": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 5 degree 1"
+    },
+    "run52": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 5 degree 2"
+    },
+    "run53": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 5 degree 3"
+    },
+    "run54": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 5 degree 4"
+    },
+    "run55": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 5 degree 5"
+    },
+    "run56": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 5 degree 6"
+    },
+    "run57": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 5 degree 7"
+    },
+    "run58": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 5 degree 8"
+    },
+    "run59": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 5 degree 9"
+    },
+    "run60": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 5 degree 10"
+    },
+    "run61": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 10 degree 1"
+    },
+    "run62": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 10 degree 2"
+    },
+    "run63": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 10 degree 3"
+    },
+    "run64": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 10 degree 4"
+    },
+    "run65": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 10 degree 5"
+    },
+    "run66": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 10 degree 6"
+    },
+    "run67": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 10 degree 7"
+    },
+    "run68": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 10 degree 8"
+    },
+    "run69": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 10 degree 9"
+    },
+    "run70": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 10 degree 10"
+    },
+    "run71": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 15 degree 1"
+    },
+    "run72": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 15 degree 2"
+    },
+    "run73": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 15 degree 3"
+    },
+    "run74": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 15 degree 4"
+    },
+    "run75": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 15 degree 5"
+    },
+    "run76": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 15 degree 6"
+    },
+    "run77": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 15 degree 7"
+    },
+    "run78": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 15 degree 8"
+    },
+    "run79": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 15 degree 9"
+    },
+    "run80": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 15 degree 10"
+    },
+    "run81": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 20 degree 1"
+    },
+    "run82": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 20 degree 2"
+    },
+    "run83": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 20 degree 3"
+    },
+    "run84": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 20 degree 4"
+    },
+    "run85": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 20 degree 5"
+    },
+    "run86": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 20 degree 6"
+    },
+    "run87": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 20 degree 7"
+    },
+    "run88": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 20 degree 8"
+    },
+    "run89": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 20 degree 9"
+    },
+    "run90": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 20 degree 10"
+    },
+    "run91": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 25 degree 1"
+    },
+    "run92": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 25 degree 2"
+    },
+    "run93": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 25 degree 3"
+    },
+    "run94": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 25 degree 4"
+    },
+    "run95": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 25 degree 5"
+    },
+    "run96": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 25 degree 6"
+    },
+    "run97": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 25 degree 7"
+    },
+    "run98": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 25 degree 8"
+    },
+    "run99": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 25 degree 9"
+    },
+    "run100": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "200 nodes 25 degree 10"
+    },
+    "run101": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 5 degree 1"
+    },
+    "run102": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 5 degree 2"
+    },
+    "run103": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 5 degree 3"
+    },
+    "run104": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 5 degree 4"
+    },
+    "run105": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 5 degree 5"
+    },
+    "run106": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 5 degree 6"
+    },
+    "run107": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 5 degree 7"
+    },
+    "run108": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 5 degree 8"
+    },
+    "run109": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 5 degree 9"
+    },
+    "run110": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 5 degree 10"
+    },
+    "run111": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 10 degree 1"
+    },
+    "run112": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 10 degree 2"
+    },
+    "run113": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 10 degree 3"
+    },
+    "run114": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 10 degree 4"
+    },
+    "run115": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 10 degree 5"
+    },
+    "run116": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 10 degree 6"
+    },
+    "run117": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 10 degree 7"
+    },
+    "run118": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 10 degree 8"
+    },
+    "run119": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 10 degree 9"
+    },
+    "run120": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 10 degree 10"
+    },
+    "run121": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 15 degree 1"
+    },
+    "run122": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 15 degree 2"
+    },
+    "run123": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 15 degree 3"
+    },
+    "run124": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 15 degree 4"
+    },
+    "run125": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 15 degree 5"
+    },
+    "run126": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 15 degree 6"
+    },
+    "run127": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 15 degree 7"
+    },
+    "run128": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 15 degree 8"
+    },
+    "run129": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 15 degree 9"
+    },
+    "run130": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 15 degree 10"
+    },
+    "run131": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 20 degree 1"
+    },
+    "run132": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 20 degree 2"
+    },
+    "run133": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 20 degree 3"
+    },
+    "run134": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 20 degree 4"
+    },
+    "run135": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 20 degree 5"
+    },
+    "run136": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 20 degree 6"
+    },
+    "run137": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 20 degree 7"
+    },
+    "run138": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 20 degree 8"
+    },
+    "run139": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 20 degree 9"
+    },
+    "run140": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 20 degree 10"
+    },
+    "run141": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 25 degree 1"
+    },
+    "run142": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 25 degree 2"
+    },
+    "run143": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 25 degree 3"
+    },
+    "run144": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 25 degree 4"
+    },
+    "run145": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 25 degree 5"
+    },
+    "run146": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 25 degree 6"
+    },
+    "run147": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 25 degree 7"
+    },
+    "run148": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 25 degree 8"
+    },
+    "run149": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 25 degree 9"
+    },
+    "run150": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "300 nodes 25 degree 10"
+    },
+    "run151": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 5 degree 1"
+    },
+    "run152": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 5 degree 2"
+    },
+    "run153": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 5 degree 3"
+    },
+    "run154": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 5 degree 4"
+    },
+    "run155": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 5 degree 5"
+    },
+    "run156": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 5 degree 6"
+    },
+    "run157": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 5 degree 7"
+    },
+    "run158": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 5 degree 8"
+    },
+    "run159": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 5 degree 9"
+    },
+    "run160": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 5 degree 10"
+    },
+    "run161": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 10 degree 1"
+    },
+    "run162": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 10 degree 2"
+    },
+    "run163": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 10 degree 3"
+    },
+    "run164": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 10 degree 4"
+    },
+    "run165": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 10 degree 5"
+    },
+    "run166": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 10 degree 6"
+    },
+    "run167": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 10 degree 7"
+    },
+    "run168": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 10 degree 8"
+    },
+    "run169": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 10 degree 9"
+    },
+    "run170": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 10 degree 10"
+    },
+    "run171": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 15 degree 1"
+    },
+    "run172": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 15 degree 2"
+    },
+    "run173": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 15 degree 3"
+    },
+    "run174": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 15 degree 4"
+    },
+    "run175": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 15 degree 5"
+    },
+    "run176": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 15 degree 6"
+    },
+    "run177": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 15 degree 7"
+    },
+    "run178": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 15 degree 8"
+    },
+    "run179": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 15 degree 9"
+    },
+    "run180": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 15 degree 10"
+    },
+    "run181": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 20 degree 1"
+    },
+    "run182": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 20 degree 2"
+    },
+    "run183": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 20 degree 3"
+    },
+    "run184": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 20 degree 4"
+    },
+    "run185": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 20 degree 5"
+    },
+    "run186": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 20 degree 6"
+    },
+    "run187": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 20 degree 7"
+    },
+    "run188": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 20 degree 8"
+    },
+    "run189": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 20 degree 9"
+    },
+    "run190": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 20 degree 10"
+    },
+    "run191": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 25 degree 1"
+    },
+    "run192": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 25 degree 2"
+    },
+    "run193": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 25 degree 3"
+    },
+    "run194": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 25 degree 4"
+    },
+    "run195": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 25 degree 5"
+    },
+    "run196": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 25 degree 6"
+    },
+    "run197": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 25 degree 7"
+    },
+    "run198": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 25 degree 8"
+    },
+    "run199": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 25 degree 9"
+    },
+    "run200": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "400 nodes 25 degree 10"
+    },
+    "run201": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 5 degree 1"
+    },
+    "run202": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 5 degree 2"
+    },
+    "run203": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 5 degree 3"
+    },
+    "run204": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 5 degree 4"
+    },
+    "run205": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 5 degree 5"
+    },
+    "run206": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 5 degree 6"
+    },
+    "run207": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 5 degree 7"
+    },
+    "run208": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 5 degree 8"
+    },
+    "run209": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 5 degree 9"
+    },
+    "run210": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 5 degree 10"
+    },
+    "run211": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 10 degree 1"
+    },
+    "run212": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 10 degree 2"
+    },
+    "run213": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 10 degree 3"
+    },
+    "run214": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 10 degree 4"
+    },
+    "run215": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 10 degree 5"
+    },
+    "run216": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 10 degree 6"
+    },
+    "run217": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 10 degree 7"
+    },
+    "run218": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 10 degree 8"
+    },
+    "run219": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 10 degree 9"
+    },
+    "run220": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 10 degree 10"
+    },
+    "run221": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 15 degree 1"
+    },
+    "run222": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 15 degree 2"
+    },
+    "run223": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 15 degree 3"
+    },
+    "run224": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 15 degree 4"
+    },
+    "run225": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 15 degree 5"
+    },
+    "run226": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 15 degree 6"
+    },
+    "run227": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 15 degree 7"
+    },
+    "run228": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 15 degree 8"
+    },
+    "run229": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 15 degree 9"
+    },
+    "run230": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 15 degree 10"
+    },
+    "run231": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 20 degree 1"
+    },
+    "run232": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 20 degree 2"
+    },
+    "run233": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 20 degree 3"
+    },
+    "run234": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 20 degree 4"
+    },
+    "run235": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 20 degree 5"
+    },
+    "run236": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 20 degree 6"
+    },
+    "run237": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 20 degree 7"
+    },
+    "run238": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 20 degree 8"
+    },
+    "run239": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 20 degree 9"
+    },
+    "run240": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 20 degree 10"
+    },
+    "run241": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 25 degree 1"
+    },
+    "run242": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 25 degree 2"
+    },
+    "run243": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 25 degree 3"
+    },
+    "run244": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 25 degree 4"
+    },
+    "run245": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 25 degree 5"
+    },
+    "run246": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 25 degree 6"
+    },
+    "run247": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 25 degree 7"
+    },
+    "run248": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 25 degree 8"
+    },
+    "run249": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 25 degree 9"
+    },
+    "run250": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "500 nodes 25 degree 10"
+    },
+    "run251": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 5 degree 1"
+    },
+    "run252": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 5 degree 2"
+    },
+    "run253": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 5 degree 3"
+    },
+    "run254": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 5 degree 4"
+    },
+    "run255": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 5 degree 5"
+    },
+    "run256": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 5 degree 6"
+    },
+    "run257": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 5 degree 7"
+    },
+    "run258": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 5 degree 8"
+    },
+    "run259": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 5 degree 9"
+    },
+    "run260": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 5 degree 10"
+    },
+    "run261": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 10 degree 1"
+    },
+    "run262": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 10 degree 2"
+    },
+    "run263": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 10 degree 3"
+    },
+    "run264": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 10 degree 4"
+    },
+    "run265": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 10 degree 5"
+    },
+    "run266": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 10 degree 6"
+    },
+    "run267": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 10 degree 7"
+    },
+    "run268": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 10 degree 8"
+    },
+    "run269": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 10 degree 9"
+    },
+    "run270": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 10 degree 10"
+    },
+    "run271": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 15 degree 1"
+    },
+    "run272": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 15 degree 2"
+    },
+    "run273": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 15 degree 3"
+    },
+    "run274": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 15 degree 4"
+    },
+    "run275": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 15 degree 5"
+    },
+    "run276": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 15 degree 6"
+    },
+    "run277": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 15 degree 7"
+    },
+    "run278": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 15 degree 8"
+    },
+    "run279": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 15 degree 9"
+    },
+    "run280": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 15 degree 10"
+    },
+    "run281": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 20 degree 1"
+    },
+    "run282": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 20 degree 2"
+    },
+    "run283": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 20 degree 3"
+    },
+    "run284": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 20 degree 4"
+    },
+    "run285": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 20 degree 5"
+    },
+    "run286": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 20 degree 6"
+    },
+    "run287": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 20 degree 7"
+    },
+    "run288": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 20 degree 8"
+    },
+    "run289": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 20 degree 9"
+    },
+    "run290": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 20 degree 10"
+    },
+    "run291": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 25 degree 1"
+    },
+    "run292": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 25 degree 2"
+    },
+    "run293": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 25 degree 3"
+    },
+    "run294": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 25 degree 4"
+    },
+    "run295": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 25 degree 5"
+    },
+    "run296": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 25 degree 6"
+    },
+    "run297": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 25 degree 7"
+    },
+    "run298": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 25 degree 8"
+    },
+    "run299": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 25 degree 9"
+    },
+    "run300": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "600 nodes 25 degree 10"
+    },
+    "run301": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 5 degree 1"
+    },
+    "run302": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 5 degree 2"
+    },
+    "run303": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 5 degree 3"
+    },
+    "run304": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 5 degree 4"
+    },
+    "run305": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 5 degree 5"
+    },
+    "run306": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 5 degree 6"
+    },
+    "run307": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 5 degree 7"
+    },
+    "run308": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 5 degree 8"
+    },
+    "run309": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 5 degree 9"
+    },
+    "run310": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 5 degree 10"
+    },
+    "run311": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 10 degree 1"
+    },
+    "run312": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 10 degree 2"
+    },
+    "run313": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 10 degree 3"
+    },
+    "run314": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 10 degree 4"
+    },
+    "run315": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 10 degree 5"
+    },
+    "run316": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 10 degree 6"
+    },
+    "run317": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 10 degree 7"
+    },
+    "run318": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 10 degree 8"
+    },
+    "run319": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 10 degree 9"
+    },
+    "run320": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 10 degree 10"
+    },
+    "run321": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 15 degree 1"
+    },
+    "run322": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 15 degree 2"
+    },
+    "run323": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 15 degree 3"
+    },
+    "run324": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 15 degree 4"
+    },
+    "run325": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 15 degree 5"
+    },
+    "run326": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 15 degree 6"
+    },
+    "run327": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 15 degree 7"
+    },
+    "run328": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 15 degree 8"
+    },
+    "run329": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 15 degree 9"
+    },
+    "run330": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 15 degree 10"
+    },
+    "run331": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 20 degree 1"
+    },
+    "run332": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 20 degree 2"
+    },
+    "run333": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 20 degree 3"
+    },
+    "run334": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 20 degree 4"
+    },
+    "run335": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 20 degree 5"
+    },
+    "run336": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 20 degree 6"
+    },
+    "run337": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 20 degree 7"
+    },
+    "run338": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 20 degree 8"
+    },
+    "run339": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 20 degree 9"
+    },
+    "run340": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 20 degree 10"
+    },
+    "run341": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 25 degree 1"
+    },
+    "run342": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 25 degree 2"
+    },
+    "run343": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 25 degree 3"
+    },
+    "run344": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 25 degree 4"
+    },
+    "run345": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 25 degree 5"
+    },
+    "run346": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 25 degree 6"
+    },
+    "run347": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 25 degree 7"
+    },
+    "run348": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 25 degree 8"
+    },
+    "run349": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 25 degree 9"
+    },
+    "run350": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "700 nodes 25 degree 10"
+    },
+    "run351": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 5 degree 1"
+    },
+    "run352": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 5 degree 2"
+    },
+    "run353": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 5 degree 3"
+    },
+    "run354": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 5 degree 4"
+    },
+    "run355": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 5 degree 5"
+    },
+    "run356": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 5 degree 6"
+    },
+    "run357": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 5 degree 7"
+    },
+    "run358": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 5 degree 8"
+    },
+    "run359": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 5 degree 9"
+    },
+    "run360": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 5 degree 10"
+    },
+    "run361": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 10 degree 1"
+    },
+    "run362": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 10 degree 2"
+    },
+    "run363": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 10 degree 3"
+    },
+    "run364": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 10 degree 4"
+    },
+    "run365": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 10 degree 5"
+    },
+    "run366": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 10 degree 6"
+    },
+    "run367": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 10 degree 7"
+    },
+    "run368": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 10 degree 8"
+    },
+    "run369": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 10 degree 9"
+    },
+    "run370": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 10 degree 10"
+    },
+    "run371": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 15 degree 1"
+    },
+    "run372": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 15 degree 2"
+    },
+    "run373": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 15 degree 3"
+    },
+    "run374": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 15 degree 4"
+    },
+    "run375": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 15 degree 5"
+    },
+    "run376": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 15 degree 6"
+    },
+    "run377": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 15 degree 7"
+    },
+    "run378": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 15 degree 8"
+    },
+    "run379": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 15 degree 9"
+    },
+    "run380": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 15 degree 10"
+    },
+    "run381": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 20 degree 1"
+    },
+    "run382": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 20 degree 2"
+    },
+    "run383": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 20 degree 3"
+    },
+    "run384": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 20 degree 4"
+    },
+    "run385": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 20 degree 5"
+    },
+    "run386": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 20 degree 6"
+    },
+    "run387": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 20 degree 7"
+    },
+    "run388": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 20 degree 8"
+    },
+    "run389": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 20 degree 9"
+    },
+    "run390": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 20 degree 10"
+    },
+    "run391": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 25 degree 1"
+    },
+    "run392": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 25 degree 2"
+    },
+    "run393": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 25 degree 3"
+    },
+    "run394": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 25 degree 4"
+    },
+    "run395": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 25 degree 5"
+    },
+    "run396": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 25 degree 6"
+    },
+    "run397": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 25 degree 7"
+    },
+    "run398": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 25 degree 8"
+    },
+    "run399": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 25 degree 9"
+    },
+    "run400": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "800 nodes 25 degree 10"
+    },
+    "run401": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 5 degree 1"
+    },
+    "run402": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 5 degree 2"
+    },
+    "run403": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 5 degree 3"
+    },
+    "run404": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 5 degree 4"
+    },
+    "run405": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 5 degree 5"
+    },
+    "run406": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 5 degree 6"
+    },
+    "run407": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 5 degree 7"
+    },
+    "run408": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 5 degree 8"
+    },
+    "run409": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 5 degree 9"
+    },
+    "run410": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 5 degree 10"
+    },
+    "run411": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 10 degree 1"
+    },
+    "run412": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 10 degree 2"
+    },
+    "run413": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 10 degree 3"
+    },
+    "run414": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 10 degree 4"
+    },
+    "run415": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 10 degree 5"
+    },
+    "run416": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 10 degree 6"
+    },
+    "run417": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 10 degree 7"
+    },
+    "run418": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 10 degree 8"
+    },
+    "run419": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 10 degree 9"
+    },
+    "run420": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 10 degree 10"
+    },
+    "run421": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 15 degree 1"
+    },
+    "run422": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 15 degree 2"
+    },
+    "run423": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 15 degree 3"
+    },
+    "run424": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 15 degree 4"
+    },
+    "run425": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 15 degree 5"
+    },
+    "run426": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 15 degree 6"
+    },
+    "run427": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 15 degree 7"
+    },
+    "run428": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 15 degree 8"
+    },
+    "run429": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 15 degree 9"
+    },
+    "run430": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 15 degree 10"
+    },
+    "run431": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 20 degree 1"
+    },
+    "run432": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 20 degree 2"
+    },
+    "run433": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 20 degree 3"
+    },
+    "run434": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 20 degree 4"
+    },
+    "run435": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 20 degree 5"
+    },
+    "run436": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 20 degree 6"
+    },
+    "run437": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 20 degree 7"
+    },
+    "run438": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 20 degree 8"
+    },
+    "run439": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 20 degree 9"
+    },
+    "run440": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 20 degree 10"
+    },
+    "run441": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 25 degree 1"
+    },
+    "run442": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 25 degree 2"
+    },
+    "run443": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 25 degree 3"
+    },
+    "run444": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 25 degree 4"
+    },
+    "run445": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 25 degree 5"
+    },
+    "run446": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 25 degree 6"
+    },
+    "run447": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 25 degree 7"
+    },
+    "run448": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 25 degree 8"
+    },
+    "run449": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 25 degree 9"
+    },
+    "run450": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "900 nodes 25 degree 10"
+    },
+    "run451": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 5 degree 1"
+    },
+    "run452": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 5 degree 2"
+    },
+    "run453": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 5 degree 3"
+    },
+    "run454": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 5 degree 4"
+    },
+    "run455": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 5 degree 5"
+    },
+    "run456": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 5 degree 6"
+    },
+    "run457": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 5 degree 7"
+    },
+    "run458": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 5 degree 8"
+    },
+    "run459": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 5 degree 9"
+    },
+    "run460": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 5 degree 10"
+    },
+    "run461": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 10 degree 1"
+    },
+    "run462": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 10 degree 2"
+    },
+    "run463": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 10 degree 3"
+    },
+    "run464": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 10 degree 4"
+    },
+    "run465": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 10 degree 5"
+    },
+    "run466": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 10 degree 6"
+    },
+    "run467": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 10 degree 7"
+    },
+    "run468": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 10 degree 8"
+    },
+    "run469": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 10 degree 9"
+    },
+    "run470": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 10 degree 10"
+    },
+    "run471": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 15 degree 1"
+    },
+    "run472": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 15 degree 2"
+    },
+    "run473": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 15 degree 3"
+    },
+    "run474": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 15 degree 4"
+    },
+    "run475": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 15 degree 5"
+    },
+    "run476": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 15 degree 6"
+    },
+    "run477": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 15 degree 7"
+    },
+    "run478": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 15 degree 8"
+    },
+    "run479": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 15 degree 9"
+    },
+    "run480": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 15 degree 10"
+    },
+    "run481": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 20 degree 1"
+    },
+    "run482": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 20 degree 2"
+    },
+    "run483": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 20 degree 3"
+    },
+    "run484": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 20 degree 4"
+    },
+    "run485": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 20 degree 5"
+    },
+    "run486": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 20 degree 6"
+    },
+    "run487": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 20 degree 7"
+    },
+    "run488": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 20 degree 8"
+    },
+    "run489": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 20 degree 9"
+    },
+    "run490": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 20 degree 10"
+    },
+    "run491": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 25 degree 1"
+    },
+    "run492": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 25 degree 2"
+    },
+    "run493": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 25 degree 3"
+    },
+    "run494": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 25 degree 4"
+    },
+    "run495": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 25 degree 5"
+    },
+    "run496": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 25 degree 6"
+    },
+    "run497": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 25 degree 7"
+    },
+    "run498": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 25 degree 8"
+    },
+    "run499": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 25 degree 9"
+    },
+    "run500": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "1000 nodes 25 degree 10"
+    }
+}
