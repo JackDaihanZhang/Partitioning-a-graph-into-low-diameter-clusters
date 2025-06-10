@@ -1,0 +1,152 @@
+{
+    "run1": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 100_ p = 2"
+    },
+    "run2": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 100_ p = 4"
+    },
+    "run3": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 100_ p = 6"
+    },
+    "run4": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 100_ p = 8"
+    },
+    "run5": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 100_ p = 10"
+    },
+    "run6": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 200_ p = 2"
+    },
+    "run7": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 200_ p = 4"
+    },
+    "run8": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 200_ p = 6"
+    },
+    "run9": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 200_ p = 8"
+    },
+    "run10": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 200_ p = 10"
+    },
+    "run11": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 300_ p = 2"
+    },
+    "run12": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 300_ p = 4"
+    },
+    "run13": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 300_ p = 6"
+    },
+    "run14": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 300_ p = 8"
+    },
+    "run15": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 300_ p = 10"
+    },
+    "run16": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 400_ p = 2"
+    },
+    "run17": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 400_ p = 4"
+    },
+    "run18": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 400_ p = 6"
+    },
+    "run19": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 400_ p = 8"
+    },
+    "run20": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 400_ p = 10"
+    },
+    "run21": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 500_ p = 2"
+    },
+    "run22": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 500_ p = 4"
+    },
+    "run23": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 500_ p = 6"
+    },
+    "run24": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 500_ p = 8"
+    },
+    "run25": {
+        "Problem": "Partitioning",
+        "Model": "ext_label",
+        "s": 2,
+        "Instance": "n = 500_ p = 10"
+    }
+}

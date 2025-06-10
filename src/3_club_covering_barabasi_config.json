@@ -1,0 +1,152 @@
+{
+    "run1": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 100_ m = 1"
+    },
+    "run2": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 100_ m = 2"
+    },
+    "run3": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 100_ m = 3"
+    },
+    "run4": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 100_ m = 4"
+    },
+    "run5": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 100_ m = 5"
+    },
+    "run6": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 200_ m = 1"
+    },
+    "run7": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 200_ m = 2"
+    },
+    "run8": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 200_ m = 3"
+    },
+    "run9": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 200_ m = 4"
+    },
+    "run10": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 200_ m = 5"
+    },
+    "run11": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 300_ m = 1"
+    },
+    "run12": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 300_ m = 2"
+    },
+    "run13": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 300_ m = 3"
+    },
+    "run14": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 300_ m = 4"
+    },
+    "run15": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 300_ m = 5"
+    },
+    "run16": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 400_ m = 1"
+    },
+    "run17": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 400_ m = 2"
+    },
+    "run18": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 400_ m = 3"
+    },
+    "run19": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 400_ m = 4"
+    },
+    "run20": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 400_ m = 5"
+    },
+    "run21": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 500_ m = 1"
+    },
+    "run22": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 500_ m = 2"
+    },
+    "run23": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 500_ m = 3"
+    },
+    "run24": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 500_ m = 4"
+    },
+    "run25": {
+        "Problem": "Covering",
+        "Model": "ext_label",
+        "s": 3,
+        "Instance": "n = 500_ m = 5"
+    }
+}
